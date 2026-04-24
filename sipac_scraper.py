@@ -213,7 +213,18 @@ def buscar_sipac(
     with sync_playwright() as pw:
         browser = pw.chromium.launch(
             headless=True,
-            args=["--disable-dev-shm-usage", "--no-sandbox", "--disable-gpu"],
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--disable-extensions",
+                "--disable-background-networking",
+                "--disable-sync",
+                "--no-first-run",
+                "--mute-audio",
+                "--hide-scrollbars",
+            ],
         )
         context = browser.new_context(ignore_https_errors=True)
         page = context.new_page()
