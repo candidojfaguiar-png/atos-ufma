@@ -1,0 +1,1587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/WH/theme.css" type="text/css" />
+<link rel="stylesheet" href="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/DB/theme.css" type="text/css" />
+<script type="text/javascript" src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/prototype.PrototypeResourceLoader/prototype.js"><!--
+
+//--></script>
+<script type="text/javascript" src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/date.js"><!--
+
+//--></script>
+<script type="text/javascript" src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/popcalendar.js"><!--
+
+//--></script>
+<script type="text/javascript" src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/inputTextHelp.HtmlTextHelpRenderer/inputTextHelp.js"><!--
+
+//--></script>
+
+<title>SIPAC - Sistema Integrado de Patrim&#244;nio, Administra&#231;&#227;o e Contratos </title>
+<link class="component" href="/public/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><link class="component" href="/public/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" media="rich-extended-skinning" rel="stylesheet" type="text/css" /><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/public/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sipac/img_css/sipac.ico" />
+<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js" ></script>
+<script type="text/javascript" src="/shared/javascript/prototype-1.6.0.3.js"> </script>
+<script type="text/javascript">
+	JAWR.loader.style('/bundles/css/sipac_base.css', 'all');
+ 	JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css','all');
+ 	JAWR.loader.style('/css/public.css', 'all');
+ 	JAWR.loader.script('/bundles/js/sipac_base.js');
+ 	JAWR.loader.script('/bundles/js/ext2.js');
+</script>
+
+	<link rel="stylesheet" href="/sipac/img_css/public_sipac.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+
+<body>
+
+	<div id="container">
+	
+	<div id="container-inner">
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/public"> <img src="https://admin.ufma.br/shared/img/instituicao/brasao.png"/> </a>
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade Federal do Maranh&#227;o </span>
+			<span class="data">
+				 S&#227;o Lu&#237;s, 
+				 23 de Abril de 
+				 2026 
+			</span>
+			<a id="home" href="/public" alt="P&#225;gina inicial" title="P&#225;gina inicial"> </a>
+			<div id="acesso">
+				<ul>
+					<li class="acesso_esq_bg"></li>
+					<li class="acesso_centro_bg">
+						<a href="/sipac/?modo=classico" alt="Clique aqui para logar-se no SIPAC" title="Clique aqui para logar-se no SIPAC">
+							Entrar no sistema
+						</a>
+					</li>
+					<li class="acesso_dir_bg"></li>
+				</ul>
+			</div>
+		</div>
+		<br clear="all"/>
+	</div>
+
+
+	<div id="corpo">
+
+
+	
+	<h2 class="title"><a href="/public">Portal P&#250;blico</a> &gt; Consultar Informativos Publicados </h2>
+	
+	<div class="descricaoOperacao">
+		<ul>
+			<li>A partir desta op&#231;&#227;o &#233; poss&#237;vel consultar informativos j&#225; publicados em boletins de servi&#231;os;</li>
+			<li>Informe os par&#226;metros para a busca desejados. N&#195;O &#233; necess&#225;rio informar TODOS os demais par&#226;metros de busca;</li>
+			<li>A busca por assunto ou conte&#250;do &#233; feita com base na presen&#231;a do que foi informado e n&#227;o exatamente igual ao que foi informado.</li>
+		</ul>
+	</div>
+	
+	
+
+
+
+
+
+	<div id="painel-erros" style="border-bottom: 0;">
+		
+	
+		
+	
+		
+		<ul class="erros">
+			
+				<li>form:tipo: Campo obrigat&#243;rio n&#227;o informado ou valor informado para o campo &#233; inv&#225;lido.</li>
+			
+				<li>form:tipo: Campo obrigat&#243;rio n&#227;o informado ou valor informado para o campo &#233; inv&#225;lido.</li>
+			
+		</ul>
+		
+		
+	</div>
+	
+	<script type="text/javascript">
+		function toUpScoll() {
+			window.scrollTo(0,0);
+		}
+
+		window.onload = toUpScoll();
+	</script>
+	
+
+
+
+	
+	<br />
+	
+	
+<form id="form" name="form" method="post" action="/public/jsp/boletim_servico/busca_avancada.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form" value="form" />
+
+		
+		<table class="formulario" id="opcoesBusca">
+			
+			<caption>Op&#231;&#245;es para Busca</caption>
+			
+			<tr>
+				
+				<td>
+					
+					<table class="subFormulario" id="dadosInformativo">
+						
+						<caption>Dados do Informativo</caption>
+						
+						<tr>
+							<td>
+								<input id="form:checkConteudo" type="checkbox" name="form:checkConteudo" checked="checked" class="noborder" />
+								Interessado/Conte&#250;do:
+							</td>
+							<td>
+								<input id="form:conteudo" type="text" name="form:conteudo" value="progressao" onclick="javascript:$('form:checkConteudo').checked = true;" size="70" />
+							</td>
+						</tr>
+						<tr>
+							<td width="160">
+								<input id="form:checkTipo" type="checkbox" name="form:checkTipo" class="noborder" />
+								Tipo:
+							</td>
+							<td>
+								<select id="form:tipo" name="form:tipo" size="1" onchange="javascript:$('form:checkTipo').checked = true;">	<option value="-1">-- SELECIONE --</option>
+	<option value="36">AFASTAMENTO</option>
+	<option value="23">ATA DE REUNI&Atilde;O</option>
+	<option value="67">COMUNICADO</option>
+	<option value="33">CONCESS&Atilde;O DE SUPRIMENTO DE FUNDOS</option>
+	<option value="42">CONCURSO</option>
+	<option value="66">DECIS&Atilde;O COLEGIADA</option>
+	<option value="37">DI&Aacute;RIAS</option>
+	<option value="38">EDITAL</option>
+	<option value="45">EXTRATO DE CONTRATO</option>
+	<option value="34">EXTRATO DE CONV&Ecirc;NIOS
+</option>
+	<option value="44">EXTRATO DE RESCIC&Atilde;O CONTRATUAL</option>
+	<option value="68">INSTRU&Ccedil;&Atilde;O NORMATIVA</option>
+	<option value="64">ORDEM DE SERVI&Ccedil;O</option>
+	<option value="39">PORTARIA</option>
+	<option value="65">PORTARIA MR</option>
+	<option value="40">RESOLU&Ccedil;&Atilde;O</option>
+	<option value="41">RETIFICA&Ccedil;&Atilde;O</option>
+	<option value="43">RETIFICA&Ccedil;&Atilde;O DE EDITAL</option>
+</select>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<input id="form:checkNumeroAno" type="checkbox" name="form:checkNumeroAno" class="noborder" />
+								N&#250;mero/Ano:
+							</td>
+							<td>
+								<input id="form:numero" type="text" name="form:numero" value="0" maxlength="9" onclick="javascript:$('form:checkNumeroAno').checked = true;" onkeyup="return formatarInteiro(this);" size="10" title="N&uacute;mero do Informativo" />
+								/ 
+								<input id="form:ano" type="text" name="form:ano" value="0" maxlength="4" onclick="javascript:$('form:checkNumeroAno').checked = true;" onkeyup="return formatarInteiro(this);" size="5" title="Ano do Informativo" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<input id="form:checkUnidadeSolicitante" type="checkbox" name="form:checkUnidadeSolicitante" class="noborder" />
+								Unidade Solicitante:
+							</td>
+							<td>
+								<select id="form:unidadeSolicitante" name="form:unidadeSolicitante" size="1" onchange="javascript:$('form:checkUnidadeSolicitante').checked = true;" style="width: 70%">	<option value="-1">-- SELECIONE --</option>
+	<option value="742">AG&Ecirc;NCIA DE INOVA&Ccedil;&Atilde;O, EMPREENDEDORISMO, PESQUISA, P&Oacute;S-GRADUA&Ccedil;&Atilde;O E INTERNACIONALIZA&Ccedil;&Atilde;O - AGEUFMA</option>
+	<option value="1493">AG&Ecirc;NCIA DE TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O/AGETIC</option>
+	<option value="1269">ALMOXARIFADO CENTRAL - HU - INATIVAR</option>
+	<option value="663">ALMOXARIFADO CENTRAL/CPAT</option>
+	<option value="1357">AMBULATORIO DE OBSTETRICIA E GINECOLOGIA - INATIVAR</option>
+	<option value="1302">AMBULAT&Oacute;RIO DE PEDIATRIA - INATIVAR</option>
+	<option value="676">ARQUIVO DA CONTABILIDADE/PPGT</option>
+	<option value="670">ARQUIVO GERAL/PPGT</option>
+	<option value="1864">ARQUIVO/COREC/DIGEP/PROGEP</option>
+	<option value="1904">ASSESSORIA DA REITORIA - ASSER/REITORIA</option>
+	<option value="1987">ASSESSORIA DE NORMATIZA&Ccedil;&Atilde;O INSTITUCIONAL - ANI/GR</option>
+	<option value="612">ASSESSORIA DE PLANEJAMENTO E A&Ccedil;&Otilde;ES ESTRAT&Eacute;GICAS</option>
+	<option value="1034">AUDITORIA INTERNA</option>
+	<option value="1248">BANCO DE LEITE - INATIVAR</option>
+	<option value="1249">BANCO DE OLHOS - INATIVAR</option>
+	<option value="1188">BIBLIOTECA CENTRAL/DIB</option>
+	<option value="1200">BIBLIOTECA DE BACABAL/DIB</option>
+	<option value="1206">BIBLIOTECA DE BALSAS/DIB</option>
+	<option value="1202">BIBLIOTECA DE CHAPADINHA/DIB</option>
+	<option value="1203">BIBLIOTECA DE COD&Oacute;/DIB</option>
+	<option value="1193">BIBLIOTECA DE ENFERMAGEM/DIB</option>
+	<option value="1204">BIBLIOTECA DE GRAJA&Uacute;/DIB</option>
+	<option value="1199">BIBLIOTECA DE MEDICINA/DIB</option>
+	<option value="1207">BIBLIOTECA DE PINHEIRO/DIB</option>
+	<option value="1198">BIBLIOTECA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS EXATAS E TECNOLOGIA/DIB</option>
+	<option value="1195">BIBLIOTECA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS SOCIAIS/DIB</option>
+	<option value="1191">BIBLIOTECA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DIREITO/DIB</option>
+	<option value="1196">BIBLIOTECA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE E MEIO AMBIENTE/DIB</option>
+	<option value="1201">BIBLIOTECA DE S&Atilde;O BERNARDO/DIB</option>
+	<option value="1194">BIBLIOTECA DE TURISMO E HOTELARIA/DIB</option>
+	<option value="1189">BIBLIOTECA DO CENTRO DE CI&Ecirc;NCIAS HUMANAS/DIB</option>
+	<option value="1190">BIBLIOTECA DO CENTRO DE CI&Ecirc;NCIAS SOCIAIS/DIB</option>
+	<option value="1192">BIBLIOTECA DO COLUN/DIB</option>
+	<option value="1598">BIBLIOTECAS</option>
+	<option value="693">BIOT&Eacute;RIO E CENTRO DE EXPERIMENTA&Ccedil;&Atilde;O ANIMAL DA UFMA/UFMA</option>
+	<option value="1250">CENTRAL DE CAPTA&Ccedil;&Atilde;O DE ORG&Atilde;OS - INATIVAR</option>
+	<option value="1270">CENTRAL DE KIT - INATIVAR</option>
+	<option value="1324">CENTRAL DE MATERIAL E ESTERILIZA&Ccedil;&Atilde;O - ENFERMAGEM (UNID DO PRESIDENTE DUTRA) - INATIVAR</option>
+	<option value="1325">CENTRAL DE MATERIAL E ESTERILIZA&Ccedil;&Atilde;O - HUMI - INATIVAR</option>
+	<option value="1287">CENTRO CIRURGICO OBSTETRICO-ENFERMAGEM - INATIVAR</option>
+	<option value="1303">CENTRO CIR&Uacute;RGICO INFANTIL - INATIVAR</option>
+	<option value="1286">CENTRO CIR&Uacute;RGICO INFANTIL-ENFERMAGEM - INATIVAR</option>
+	<option value="1300">CENTRO CIR&Uacute;RGICO OBST&Eacute;TRICO - INATIVAR</option>
+	<option value="1271">CENTRO CIR&Uacute;RGICO OFTALM&Oacute;LIGO-ENFERMAGEM - INATIVAR</option>
+	<option value="904">CENTRO DE CI&Ecirc;NCIAS BIOLOGICAS E DA SA&Uacute;DE - CCBS</option>
+	<option value="1543">CENTRO DE CI&Ecirc;NCIAS DE BACABAL - CCBA</option>
+	<option value="1230">CENTRO DE CI&Ecirc;NCIAS DE BALSAS - CCBL</option>
+	<option value="1005">CENTRO DE CI&Ecirc;NCIAS DE CHAPADINHA - CCCH</option>
+	<option value="635">CENTRO DE CI&Ecirc;NCIAS DE COD&Oacute; - CCCO</option>
+	<option value="624">CENTRO DE CI&Ecirc;NCIAS DE GRAJA&Uacute; - CCGR</option>
+	<option value="1014">CENTRO DE CI&Ecirc;NCIAS DE IMPERATRIZ - CCIM</option>
+	<option value="1393">CENTRO DE CI&Ecirc;NCIAS DE PINHEIRO - CCPI</option>
+	<option value="1065">CENTRO DE CI&Ecirc;NCIAS DE S&Atilde;O BERNARDO - CCSB</option>
+	<option value="966">CENTRO DE CI&Ecirc;NCIAS EXATAS E TECNOLOGIA - CCET</option>
+	<option value="828">CENTRO DE CI&Ecirc;NCIAS HUMANAS - CCH</option>
+	<option value="857">CENTRO DE CI&Ecirc;NCIAS SOCIAIS - CCSO</option>
+	<option value="1288">CENTRO DE MATERIAL E ESTERILIZA&Ccedil;&Atilde;O-ENFERMAGEM - INATIVAR</option>
+	<option value="1133">CENTRO PEDAGOGICO PAULO FREIRE</option>
+	<option value="1312">CEPEC - INATIVAR</option>
+	<option value="1320">CLINICA CIR&Uacute;RGICA PEDI&Aacute;TRICA - INATIVAR</option>
+	<option value="1289">CLINICA CIR&Uacute;RGICA PEDI&Aacute;TRICA-ENFERMAGEM - INATIVAR</option>
+	<option value="1868">CLUBE DE DESCONTOS DA UFMA / CD/DQV</option>
+	<option value="1697">COLEGIADO DO CURSO DE AGRONOMIA/CCCH</option>
+	<option value="1698">COLEGIADO DO CURSO DE BIOLOGIA/CCCH</option>
+	<option value="1688">COLEGIADO DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS - LICENCIATURA/CCBS</option>
+	<option value="1674">COLEGIADO DO CURSO DE CI&Ecirc;NCIAS CONT&Aacute;BEIS/CCIM</option>
+	<option value="1740">COLEGIADO DO CURSO DE CI&Ecirc;NCIAS CONT&Aacute;BEIS/CCSO</option>
+	<option value="1730">COLEGIADO DO CURSO DE CI&Ecirc;NCIAS ECON&Ocirc;MICAS/CCSO</option>
+	<option value="1714">COLEGIADO DO CURSO DE CI&Ecirc;NCIAS HUMANAS - FILOSOFIA/CCPI</option>
+	<option value="1732">COLEGIADO DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - R&Aacute;DIO E TV/CCSO</option>
+	<option value="1675">COLEGIADO DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL JORNALISMO/CCIM</option>
+	<option value="1676">COLEGIADO DO CURSO DE DIREITO/CCIM</option>
+	<option value="1746">COLEGIADO DO CURSO DE DIREITO/CCSO</option>
+	<option value="1690">COLEGIADO DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA - BACHARELADO/CCBS</option>
+	<option value="1689">COLEGIADO DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA - LICENCIATURA/CCBS</option>
+	<option value="1712">COLEGIADO DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA/CCPI</option>
+	<option value="1691">COLEGIADO DO CURSO DE ENFERMAGEM/CCBS</option>
+	<option value="1677">COLEGIADO DO CURSO DE ENFERMAGEM/CCIM</option>
+	<option value="1715">COLEGIADO DO CURSO DE ENFERMAGEM/CCPI</option>
+	<option value="1699">COLEGIADO DO CURSO DE ENGENHARIA AGR&Iacute;COLA/CCCH</option>
+	<option value="1708">COLEGIADO DO CURSO DE ENGENHARIA AMBIENTAL/CCBL</option>
+	<option value="1709">COLEGIADO DO CURSO DE ENGENHARIA CIVIL/CCBL</option>
+	<option value="1883">COLEGIADO DO CURSO DE ENGENHARIA DA COMPUTA&Ccedil;&Atilde;O - COLCENGC/CCET</option>
+	<option value="1678">COLEGIADO DO CURSO DE ENGENHARIA DE ALIMENTOS/CCIM</option>
+	<option value="1716">COLEGIADO DO CURSO DE ENGENHARIA DE PESCA/CCPI</option>
+	<option value="2007">COLEGIADO DO CURSO DE ENGENHARIA DE TRANSPORTES - COL/CCENGT/CCET</option>
+	<option value="1710">COLEGIADO DO CURSO DE ENGENHARIA ELETRICA/CCBL</option>
+	<option value="1879">COLEGIADO DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O AMBIENTAL E SUSTENTABILIDADE - CCEEAS/CEEAS/CCCO</option>
+	<option value="1692">COLEGIADO DO CURSO DE FARM&Aacute;CIA/CCBS</option>
+	<option value="1850">COLEGIADO DO CURSO DE FILOSOFIA - LICENCIATURA/CCH</option>
+	<option value="2035">COLEGIADO DO CURSO DE F&Iacute;SICA - BACHARELADO/CCET</option>
+	<option value="1737">COLEGIADO DO CURSO DE HOTELARIA/CCSO</option>
+	<option value="1679">COLEGIADO DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS HUMANAS SOCIOLOGIA/CCIM</option>
+	<option value="1728">COLEGIADO DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS HUMANAS SOCIOLOGIA/CCSB</option>
+	<option value="1680">COLEGIADO DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS NATURAIS BIOLOGIA/CCIM</option>
+	<option value="1920">COLEGIADO DO CURSO DE LICENCIATURA EM F&Iacute;SICA (EAD) - CCLF/CCET/STED</option>
+	<option value="1726">COLEGIADO DO CURSO DE LICENCIATURA EM LINGUAGENS DE C&Oacute;DIGOS L&Iacute;NGUA PORTUGUESA/CCSB</option>
+	<option value="1720">COLEGIADO DO CURSO DE LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS M&Uacute;SICA/CCSB</option>
+	<option value="1873">COLEGIADO DO CURSO DE LICENCIATURA EM TEATRO - COLCLT/CCH</option>
+	<option value="1718">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS HUMANAS GEOGRAFIA/CCGR</option>
+	<option value="1702">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS HUMANAS HIST&Oacute;RIA/CCCO</option>
+	<option value="1704">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS NATURAIS BIOLOGIA/CCCO</option>
+	<option value="1724">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS NATURAIS QU&Iacute;MICA/CCSB</option>
+	<option value="1717">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS NATURAIS/CCGR</option>
+	<option value="1713">COLEGIADO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS NATURAIS/CCPI</option>
+	<option value="1881">COLEGIADO DO CURSO DE MATEM&Aacute;TICA - BACHARELADO/CCET</option>
+	<option value="1880">COLEGIADO DO CURSO DE MATEM&Aacute;TICA - LICENCIATURA/CCET</option>
+	<option value="1693">COLEGIADO DO CURSO DE MEDICINA/CCBS</option>
+	<option value="1681">COLEGIADO DO CURSO DE MEDICINA/CCIM</option>
+	<option value="1711">COLEGIADO DO CURSO DE MEDICINA/CCPI</option>
+	<option value="1694">COLEGIADO DO CURSO DE NUTRI&Ccedil;&Atilde;O/CCBS</option>
+	<option value="1695">COLEGIADO DO CURSO DE OCEANOGRAFIA/CCBS</option>
+	<option value="1696">COLEGIADO DO CURSO DE ODONTOLOGIA/CCBS</option>
+	<option value="1706">COLEGIADO DO CURSO DE PEDAGOGIA/CCCO</option>
+	<option value="1682">COLEGIADO DO CURSO DE PEDAGOGIA/CCIM</option>
+	<option value="1973">COLEGIADO DO CURSO DE QU&Iacute;MICA - BACHARELADO/CCET</option>
+	<option value="1971">COLEGIADO DO CURSO DE QU&Iacute;MICA - LICENCIATURA/CCET</option>
+	<option value="1741">COLEGIADO DO CURSO DE SERVI&Ccedil;O SOCIAL/CCSO</option>
+	<option value="1722">COLEGIADO DO CURSO DE TURISMO/CCSB</option>
+	<option value="1754">COLEGIADO DO CURSO DE TURISMO/CCSO</option>
+	<option value="1700">COLEGIADO DO CURSO DE ZOOTECNIA/CCCH</option>
+	<option value="1870">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ARTES C&Ecirc;NICAS/CCH</option>
+	<option value="1891">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DA COMPUTA&Ccedil;&Atilde;O - COLPPGCC/PPGCC/CCET</option>
+	<option value="1683">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DOS MATERIAIS/CCIM</option>
+	<option value="1866">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS DA SA&Uacute;DE - CPPGCS/CCBS</option>
+	<option value="1684">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM COMUNICA&Ccedil;&Atilde;O/CCIM</option>
+	<option value="1739">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="1970">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENSINO NA EDUCA&Ccedil;&Atilde;O B&Aacute;SICA - COLPPEEB/CCCO</option>
+	<option value="1685">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM FORMA&Ccedil;&Atilde;O DOCENTE EM PR&Aacute;TICAS EDUCATIVAS/CCIM</option>
+	<option value="1871">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM HIST&Oacute;RIA/CCH</option>
+	<option value="1749">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - ENSINO DE F&Iacute;SICA EM REDE NACIONAL/CCET</option>
+	<option value="1872">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE E AMBIENTE - CPPGSA/PPGSA/CCBS</option>
+	<option value="1686">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE E TECNOLOGIA/CCIM</option>
+	<option value="1687">COLEGIADO DO PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SOCIOLOGIA/CCIM</option>
+	<option value="1049">COL&Eacute;GIO UNIVERSIT&Aacute;RIO</option>
+	<option value="1642">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCBA</option>
+	<option value="1583">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCBS</option>
+	<option value="1628">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCCH</option>
+	<option value="1658">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCCO</option>
+	<option value="1562">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCET</option>
+	<option value="1667">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCGR</option>
+	<option value="1601">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCH</option>
+	<option value="1619">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCIM</option>
+	<option value="1635">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCPI</option>
+	<option value="1649">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCSB</option>
+	<option value="1611">COMISSAO PERMANENTE DE PESSOAL DOCENTE/CCSO</option>
+	<option value="1513">COMISSAO PERMANENTE DE PESSOAL DOCENTE/PROGEP</option>
+	<option value="2010">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO - CAD/CCCSRP</option>
+	<option value="1986">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DA COORDENA&Ccedil;&Atilde;O DO CURSO DE DIREITO - CADCODIR/CCIM</option>
+	<option value="1882">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE AGRONOMIA - CADCOAGRO/CCCH</option>
+	<option value="2036">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS - LICENCIATURA - CAD/CCCBL/CCBS</option>
+	<option value="2005">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE CI&Ecirc;NCIAS CONT&Aacute;BEIS - CAD/CCCC/CCSO</option>
+	<option value="1885">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE ENGENHARIA DA COMPUTA&Ccedil;&Atilde;O - CADCENGC/CCET</option>
+	<option value="1901">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE HIST&Oacute;RIA</option>
+	<option value="1729">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS HUMANAS SOCIOLOGIA/CCSB</option>
+	<option value="1725">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS NATURAIS QU&Iacute;MICA/CCSB</option>
+	<option value="1727">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS L&Iacute;NGUA PORTUGUESA/CCSB</option>
+	<option value="1721">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS M&Uacute;SICA/CCSB</option>
+	<option value="1703">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS HUMANAS HIST&Oacute;RIA/CCCO</option>
+	<option value="1705">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURAS EM CI&Ecirc;NCIAS NATURAIS BIOLOGIA/CCCO</option>
+	<option value="1707">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE PEDAGOGIA/CCCO</option>
+	<option value="2004">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE SERVI&Ccedil;O SOCIAL - CAD/CCSS/CCSO</option>
+	<option value="2003">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE TURISMO - CAD/COTUR/CCSO</option>
+	<option value="1723">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE TURISMO/CCSB</option>
+	<option value="1867">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE ZOOTECNIA/CCCH</option>
+	<option value="1640">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCBA</option>
+	<option value="1574">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCBL</option>
+	<option value="1581">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCCBS</option>
+	<option value="1626">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCCH</option>
+	<option value="1656">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCCO</option>
+	<option value="1560">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCET</option>
+	<option value="1665">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCGR</option>
+	<option value="1599">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCH</option>
+	<option value="1617">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCIM</option>
+	<option value="1633">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCPI</option>
+	<option value="1647">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCSB</option>
+	<option value="1609">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO/CCSO</option>
+	<option value="1909">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO DA COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS BACABAL - CADCCLB/CCBA</option>
+	<option value="2002">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - RADIO E TV - CAD/CCCSRTV/CCSO</option>
+	<option value="1853">COMISS&Atilde;O DE AVALIA&Ccedil;&Atilde;O DOCENTE DO CURSO DE CI&Ecirc;NCIAS NATURAIS DE BACABAL/CADCCNB</option>
+	<option value="1892">COMISS&Atilde;O DE BOLSAS DO PPGHIS/CCH</option>
+	<option value="1264">COMISS&Atilde;O DE COMPRAS - INATIVAR</option>
+	<option value="1851">COMISS&Atilde;O DE GOVERNAN&Ccedil;A DIGITAL E SEGURAN&Ccedil;A DA INFORMA&Ccedil;&Atilde;O</option>
+	<option value="1857">COMISS&Atilde;O DE GOVERNAN&Ccedil;A, RISCO E INTEGRIDADE - CGRI</option>
+	<option value="1551">COMISS&Atilde;O DE HETEROIDENTIFICA&Ccedil;&Atilde;O/PROEN</option>
+	<option value="1307">COMISS&Atilde;O DE INFEC&Ccedil;&Atilde;O HOSPITALAR - INATIVAR</option>
+	<option value="2012">COMISS&Atilde;O DE QUALIDADE INSTITUCIONAL - CQI/SQGRAD</option>
+	<option value="2021">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCBA</option>
+	<option value="2019">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCBL</option>
+	<option value="2023">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCBS</option>
+	<option value="2022">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCCH</option>
+	<option value="2018">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCCO</option>
+	<option value="2028">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCET</option>
+	<option value="2024">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCGR</option>
+	<option value="2025">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCH</option>
+	<option value="2020">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCIM</option>
+	<option value="2017">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCPI</option>
+	<option value="2026">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCSB</option>
+	<option value="2027">COMISS&Atilde;O DE QUALIDADE SETORIAL - CQS/CCSO</option>
+	<option value="1308">COMISS&Atilde;O DE SINDIC&Acirc;NCIA - INATIVAR</option>
+	<option value="1865">COMISS&Atilde;O DE SUSTENTABILIDADE - CS/CGIT</option>
+	<option value="1540">COMISS&Atilde;O DE TOMADA DE CONTAS ESPECIAL/SCOR - INATIVAR</option>
+	<option value="1553">COMISS&Atilde;O DE VERIFICA&Ccedil;&Atilde;O IND&Iacute;GENA/PROEN</option>
+	<option value="1911">COMISS&Atilde;O DE &Eacute;TICA DA UNIVERSIDADE FEDERAL DO MARANH&Atilde;O - CE/CONSUN/FUMA</option>
+	<option value="1425">COMISS&Atilde;O DE &Eacute;TICA NO USO DE ANIMAIS/CCBS</option>
+	<option value="1751">COMISS&Atilde;O DISPAD/SCOR</option>
+	<option value="1757">COMISS&Atilde;O ELEITORAL/CONSUN</option>
+	<option value="1544">COMISS&Atilde;O ESPECIAL RECURSAL/PROEN</option>
+	<option value="1886">COMISS&Atilde;O EXECUTIVA DE AVALIA&Ccedil;&Atilde;O - CEA/CCSB</option>
+	<option value="1580">COMISS&Atilde;O INTERNA DE SUPERVIS&Atilde;O DO PLANO DE CARREIRA DOS CARGOS T&Eacute;CNICO-ADMINISTRATIVOS EM EDUCA&Ccedil;&Atilde;O - CIS/PROGEP</option>
+	<option value="1641">COMISS&Atilde;O INTERNA PARA TITULAR/CCBA</option>
+	<option value="1575">COMISS&Atilde;O INTERNA PARA TITULAR/CCBL</option>
+	<option value="1582">COMISS&Atilde;O INTERNA PARA TITULAR/CCBS</option>
+	<option value="1627">COMISS&Atilde;O INTERNA PARA TITULAR/CCCH</option>
+	<option value="1657">COMISS&Atilde;O INTERNA PARA TITULAR/CCCO</option>
+	<option value="1561">COMISS&Atilde;O INTERNA PARA TITULAR/CCET</option>
+	<option value="1666">COMISS&Atilde;O INTERNA PARA TITULAR/CCGR</option>
+	<option value="1600">COMISS&Atilde;O INTERNA PARA TITULAR/CCH</option>
+	<option value="1618">COMISS&Atilde;O INTERNA PARA TITULAR/CCIM</option>
+	<option value="1634">COMISS&Atilde;O INTERNA PARA TITULAR/CCPI</option>
+	<option value="1648">COMISS&Atilde;O INTERNA PARA TITULAR/CCSB</option>
+	<option value="1610">COMISS&Atilde;O INTERNA PARA TITULAR/CCSO</option>
+	<option value="1988">COMISS&Atilde;O PERMANENTE DE APURA&Ccedil;&Atilde;O E SAN&Ccedil;&Otilde;ES EM CONTRATA&Ccedil;&Otilde;ES/PPGT</option>
+	<option value="2013">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO - CAD/CCEFL</option>
+	<option value="2008">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO - CAD/COJOR/CCIM</option>
+	<option value="1877">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS - BACHARELADO/CCH</option>
+	<option value="1863">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE GEOGRAFIA - BACHARELADO/CCH</option>
+	<option value="1976">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE LICENCIATURA EM TEATRO/CCH</option>
+	<option value="1854">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO ACAD&Ecirc;MICO DO CURSO DE PSICOLOGIA/CCH</option>
+	<option value="1752">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO DOCENTE DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS HUMANAS/CCBA</option>
+	<option value="1748">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DESEMPENHO DOCENTE DO CURSO DE LICENCIATURA EM EDUCA&Ccedil;&Atilde;O DO CAMPO - CI&Ecirc;NCIAS DA NATUREZA E MATEM&Aacute;TICA/CCBA</option>
+	<option value="1398">COMISS&Atilde;O PERMANENTE DE AVALIA&Ccedil;&Atilde;O DE DOCUMENTOS/PPGT</option>
+	<option value="1919">COMISS&Atilde;O PERMANENTE DE DESFAZIMENTO DE BENS - CPDB/DIAD/PPGT</option>
+	<option value="1265">COMISS&Atilde;O PERMANENTE DE LICITA&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="1576">COMISS&Atilde;O PERMANENTE DE PESSOAL DOCENTE/CCBL</option>
+	<option value="672">COMISS&Atilde;O PERMANENTE LICITA&Ccedil;&Atilde;O/PPGT</option>
+	<option value="1409">COMISS&Atilde;O PR&Oacute;PRIA DE AVALIA&Ccedil;&Atilde;O</option>
+	<option value="1572">COMIT&Ecirc; DE GOVERNAN&Ccedil;A, INTEGRIDADE E TRANSPAR&Ecirc;NCIA</option>
+	<option value="1534">COMIT&Ecirc; DE &Eacute;TICA E PESQUISA/AGEUFMA</option>
+	<option value="1673">COMIT&Ecirc; DE &Eacute;TICA EM PESQUISA/CCIM</option>
+	<option value="1546">CONCESS&Atilde;O DE DI&Aacute;RIAS E PASSAGENS</option>
+	<option value="1485">CONSELHO DE ADMINISTRAC&Atilde;O</option>
+	<option value="1912">CONSELHO DE CENTRO - CONSE/CCCH</option>
+	<option value="1887">CONSELHO DE CENTRO/CCBS</option>
+	<option value="1701">CONSELHO DE CENTRO/CCCO</option>
+	<option value="1753">CONSELHO DE CENTRO/CCET</option>
+	<option value="1672">CONSELHO DE CENTRO/CCIM</option>
+	<option value="1719">CONSELHO DE CENTRO/CCSB</option>
+	<option value="1486">CONSELHO DE ENSINO, PESQUISA, EXTENS&Atilde;O E INOVA&Ccedil;&Atilde;O</option>
+	<option value="1483">CONSELHO DIRETOR</option>
+	<option value="1484">CONSELHO UNIVERSIT&Aacute;RIO</option>
+	<option value="1372">CONVENIO DE ESTAGIO/PROEN</option>
+	<option value="1209">COORDENACAO DE ATENCAO &Agrave; SAUDE DO SERVIDOR/PROGEP</option>
+	<option value="1631">COORDENACAO DE EDUCA&Ccedil;&Atilde;O PROFISSIONAL</option>
+	<option value="700">COORDENACAO DE PAGAMENTO DE PESSOAL/PROGEP</option>
+	<option value="699">COORDENACAO DE REGISTRO E CONTROLE FUNCIONAL/PROGEP</option>
+	<option value="1514">COORDENACAO DE RELACOES PUBLICAS E CERIMONIAL/SCOM</option>
+	<option value="1010">COORDENACAO DO CURSO DE DIREITO/CCIM</option>
+	<option value="1186">COORDENACAO DO CURSO DE EDUCACAO FISICA - PARFOR</option>
+	<option value="1394">COORDENACAO DO CURSO DE ENGENHARIA CIVIL/CCET</option>
+	<option value="1396">COORDENACAO DO CURSO DE ENGENHARIA DA COMPUTACAO/CCET</option>
+	<option value="1395">COORDENACAO DO CURSO DE ENGENHARIA MECANICA/CCET</option>
+	<option value="1373">COORDENACAO DO CURSO DE ESTUDOS AFRICANOS E AFRO-BRASILEIROS/DCCH</option>
+	<option value="1184">COORDENACAO DO CURSO DE GEOGRAFIA - PARFOR</option>
+	<option value="1183">COORDENACAO DO CURSO DE HISTORIA - PARFOR</option>
+	<option value="1371">COORDENACAO DO CURSO DE LETRAS - L&Iacute;NGUA PORTUGUESA E LIBRAS/CCH</option>
+	<option value="1182">COORDENACAO DO CURSO DE LETRAS ESPANHOL - PARFOR</option>
+	<option value="1548">COORDENACAO DO CURSO DE LETRAS INGL&Ecirc;S - PARFOR</option>
+	<option value="1179">COORDENACAO DO CURSO DE LICENCIATURAS EM CIENCIAS HUMANAS IMPERATRIZ/CCIM</option>
+	<option value="1178">COORDENACAO DO CURSO DE LICENCIATURAS EM CIENCIAS NATURAIS IMPERATRIZ/CCIM</option>
+	<option value="1181">COORDENACAO DO CURSO DE MATEMATICA - PARFOR</option>
+	<option value="1549">COORDENACAO DO CURSO DE PEDAGOGIA - IMPERATRIZ - PARFOR</option>
+	<option value="1180">COORDENACAO DO CURSO DE PEDAGOGIA - S&Atilde;O LUIS - PARFOR</option>
+	<option value="1004">COORDENACAO DO CURSO DE ZOOTECNIA/CCCH</option>
+	<option value="1515">COORDENAC&Atilde;O DE COMUNICAC&Atilde;O VISUAL E DESIGN GR&Aacute;FICO/SCOM</option>
+	<option value="2029">COORDENA&Ccedil;&Atilde;O DA &Aacute;REA B&Aacute;SICA DE INGRESSO EM COMPUTA&Ccedil;&Atilde;O E INTELIG&Ecirc;NCIA ARTIFICIAL - ABIC/CCET</option>
+	<option value="2037">COORDENA&Ccedil;&Atilde;O DE ALMOXARIFADO/DIAD</option>
+	<option value="1333">COORDENA&Ccedil;&Atilde;O DE ASSISTENCIA ESTUDANTIL/PROAES</option>
+	<option value="1495">COORDENA&Ccedil;&Atilde;O DE ASSUNTOS CULTURAIS/PROEC</option>
+	<option value="674">COORDENA&Ccedil;&Atilde;O DE CONTABILIDADE/PPGT</option>
+	<option value="919">COORDENA&Ccedil;&Atilde;O DE CONTRATOS/PPGT</option>
+	<option value="1938">COORDENA&Ccedil;&Atilde;O DE CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O/AGEUFMA</option>
+	<option value="1412">COORDENA&Ccedil;&Atilde;O DE EDUCA&Ccedil;&Atilde;O EMPREENDEDORA E EMPRESAS JUNIORES/AGEUFMA</option>
+	<option value="618">COORDENA&Ccedil;&Atilde;O DE ENSINO FUNDAMENTAL</option>
+	<option value="616">COORDENA&Ccedil;&Atilde;O DE ENSINO M&Eacute;DIO</option>
+	<option value="1452">COORDENA&Ccedil;&Atilde;O DE ESPORTES/CCBS</option>
+	<option value="675">COORDENA&Ccedil;&Atilde;O DE EXECU&Ccedil;&Atilde;O, LIQUIDA&Ccedil;&Atilde;O E PAGAMENTO/PPGT</option>
+	<option value="1511">COORDENA&Ccedil;&Atilde;O DE FISCALIZA&Ccedil;&Atilde;O DE OBRAS/SINFRA</option>
+	<option value="1632">COORDENA&Ccedil;&Atilde;O DE GEST&Atilde;O E PLANEJAMENTO</option>
+	<option value="1422">COORDENA&Ccedil;&Atilde;O DE INCUBADORA, STARTUPS E PARQUE TECNOL&Oacute;GICO/AGEUFMA</option>
+	<option value="1996">COORDENA&Ccedil;&Atilde;O DE INTEGRIDADE E CONDUTA DISCENTE/DIDAAF</option>
+	<option value="1875">COORDENA&Ccedil;&Atilde;O DE LETRAS LIBRAS/PORTUGU&Ecirc;S (EAD) - CCH/STED</option>
+	<option value="1496">COORDENA&Ccedil;&Atilde;O DE MEM&Oacute;RIAS E EXPOSI&Ccedil;&Otilde;ES/PROEC</option>
+	<option value="1446">COORDENA&Ccedil;&Atilde;O DE MOBILIDADE ACAD&Ecirc;MICA INTERNACIONAL/AGEUFMA</option>
+	<option value="1336">COORDENA&Ccedil;&Atilde;O DE OPERA&Ccedil;&Otilde;ES DE RESTAURANTES - COR/DGR/PROAES</option>
+	<option value="1989">COORDENA&Ccedil;&Atilde;O DE ORGANIZA&Ccedil;&Atilde;O INSTITUCIONAL E TRANSPAR&Ecirc;NCIA</option>
+	<option value="1448">COORDENA&Ccedil;&Atilde;O DE PARCERIAS INTERNACIONAIS/AGEUFMA</option>
+	<option value="1993">COORDENA&Ccedil;&Atilde;O DE PATRIM&Ocirc;NIO</option>
+	<option value="1443">COORDENA&Ccedil;&Atilde;O DE PLANEJAMENTO OR&Ccedil;AMENT&Aacute;RIO/PPGT - INATIVAR</option>
+	<option value="1559">COORDENA&Ccedil;&Atilde;O DE POL&Iacute;TICAS E A&Ccedil;&Otilde;ES AFIRMATIVAS/PROEN</option>
+	<option value="1531">COORDENA&Ccedil;&Atilde;O DE PRESTA&Ccedil;&Atilde;O DE SERVI&Ccedil;OS/AGEUFMA</option>
+	<option value="1111">COORDENA&Ccedil;&Atilde;O DE PROGRAMAS DE INICIA&Ccedil;&Atilde;O CIENT&Iacute;FICA E TECNOL&Oacute;GICA/AGEUFMA</option>
+	<option value="1530">COORDENA&Ccedil;&Atilde;O DE PROJETOS DE INOVA&Ccedil;&Atilde;O/AGEUFMA</option>
+	<option value="741">COORDENA&Ccedil;&Atilde;O DE PROJETOS DE PESQUISAS/AGEUFMA</option>
+	<option value="1510">COORDENA&Ccedil;&Atilde;O DE PROJETOS/SINFRA</option>
+	<option value="1937">COORDENA&Ccedil;&Atilde;O DE PROPRIEDADE INTELECTUAL E TRANSFER&Ecirc;NCIA TECNOL&Oacute;GICA/AGEUFMA</option>
+	<option value="1499">COORDENA&Ccedil;&Atilde;O DE SERVI&Ccedil;OS/AGETIC</option>
+	<option value="820">COORDENA&Ccedil;&Atilde;O DO CURSO ARTES VISUAIS (EAD) - CCH/STED</option>
+	<option value="1011">COORDENA&Ccedil;&Atilde;O DO CURSO CI&Ecirc;NCIAS CONT&Aacute;BEIS/CCIM</option>
+	<option value="1234">COORDENA&Ccedil;&Atilde;O DO CURSO DE ADMINISTRA&Ccedil;&Atilde;O (EAD) - CCSO/STED</option>
+	<option value="1239">COORDENA&Ccedil;&Atilde;O DO CURSO DE ADMINISTRA&Ccedil;&Atilde;O P&Uacute;BLICA (EAD) - CCSO/STED</option>
+	<option value="902">COORDENA&Ccedil;&Atilde;O DO CURSO DE ADMINISTRA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="897">COORDENA&Ccedil;&Atilde;O DO CURSO DE ADMINISTRA&Ccedil;&Atilde;O/CCSO - INATIVAR</option>
+	<option value="1002">COORDENA&Ccedil;&Atilde;O DO CURSO DE AGRONOMIA/CCCH</option>
+	<option value="1368">COORDENA&Ccedil;&Atilde;O DO CURSO DE ARQUEOLOGIA/CCH</option>
+	<option value="851">COORDENA&Ccedil;&Atilde;O DO CURSO DE ARTES VISUAIS/CCH</option>
+	<option value="1121">COORDENA&Ccedil;&Atilde;O DO CURSO DE ARTES VISUAIS/CCH - INATIVAR</option>
+	<option value="871">COORDENA&Ccedil;&Atilde;O DO CURSO DE BIBLIOTECONOMIA/CCSO</option>
+	<option value="890">COORDENA&Ccedil;&Atilde;O DO CURSO DE BIBLIOTECONOMIA/CCSO - INATIVAR</option>
+	<option value="1003">COORDENA&Ccedil;&Atilde;O DO CURSO DE BIOLOGIA/CCCH</option>
+	<option value="998">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIA DA COMPUTA&Ccedil;&Atilde;O/CCET</option>
+	<option value="982">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIA DA COMPUTA&Ccedil;&Atilde;O/CCET - INATIVAR</option>
+	<option value="1367">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIA E TECNOLOGIA - IMPERATRIZ/CCIM</option>
+	<option value="1241">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIA E TECNOLOGIA/CCBL</option>
+	<option value="1227">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIA E TECNOLOGIA/CCET</option>
+	<option value="956">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS AQU&Aacute;TICAS/CCBS</option>
+	<option value="1236">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS (EAD) - CCBS/STED</option>
+	<option value="949">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS - BACHARELADO/CCBS</option>
+	<option value="940">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS BIOL&Oacute;GICAS - LICENCIATURA/CCBS</option>
+	<option value="892">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS CONT&Aacute;BEIS/CCSO</option>
+	<option value="872">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS ECON&Ocirc;MICAS/CCSO</option>
+	<option value="891">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS ECON&Ocirc;MICAS/CCSO - INATIVAR</option>
+	<option value="1169">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS HUMANAS - FILOSOFIA/CCPI</option>
+	<option value="1918">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS HUMANAS - GEOGRAFIA - LICENCIATURA/CCCH-GEO/CCPI - INATIVAR</option>
+	<option value="1982">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS HUMANAS - GEOGRAFIA/CCPI</option>
+	<option value="1981">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS HUMANAS - HIST&Oacute;RIA/CCPI</option>
+	<option value="886">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS IMOBILI&Aacute;RIA/CCSO</option>
+	<option value="1414">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS NATURAIS-BIOLOGIA/CCBA</option>
+	<option value="1053">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS SOCIAIS - BACHARELADO/CCH</option>
+	<option value="844">COORDENA&Ccedil;&Atilde;O DO CURSO DE CI&Ecirc;NCIAS SOCIAIS - LICENCIATURA/CCH</option>
+	<option value="1403">COORDENA&Ccedil;&Atilde;O DO CURSO DE COMPUTA&Ccedil;&Atilde;O E INFORM&Aacute;TICA (EAD) - CCET/STED</option>
+	<option value="1998">COORDENA&Ccedil;&Atilde;O DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - JORNALISMO - COJORP/PRONERA/CCCSJ/CCSO</option>
+	<option value="875">COORDENA&Ccedil;&Atilde;O DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - JORNALISMO/CCSO</option>
+	<option value="1978">COORDENA&Ccedil;&Atilde;O DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - RELA&Ccedil;&Otilde;ES P&Uacute;BLICAS/CCSO</option>
+	<option value="885">COORDENA&Ccedil;&Atilde;O DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - R&Aacute;DIO E TV/CCSO</option>
+	<option value="987">COORDENA&Ccedil;&Atilde;O DO CURSO DE DESENHO INDUSTRIAL/CCET - INATIVAR</option>
+	<option value="1043">COORDENA&Ccedil;&Atilde;O DO CURSO DE DESIGN/CCET</option>
+	<option value="1120">COORDENA&Ccedil;&Atilde;O DO CURSO DE DESIGN/CCET - INATIVAR</option>
+	<option value="876">COORDENA&Ccedil;&Atilde;O DO CURSO DE DIREITO/CCSO</option>
+	<option value="883">COORDENA&Ccedil;&Atilde;O DO CURSO DE DIREITO/CCSO - INATIVAR</option>
+	<option value="845">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O ART&Iacute;STICA/CCH</option>
+	<option value="1980">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O DO CAMPO - CI&Ecirc;NCIAS AGR&Aacute;RIAS/CCBA</option>
+	<option value="898">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O DO CAMPO - CI&Ecirc;NCIAS DA NATUREZA E MATEM&Aacute;TICA/CCBA</option>
+	<option value="1917">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O ESCOLAR QUILOMBOLA, LICENCIATURA - LEEQ/PARFOR</option>
+	<option value="1916">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O ESPECIAL INCLUSIVA, LICENCIATURA - CCEEIPF/PARFOR</option>
+	<option value="1876">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA (EAD) - CCPI/STED - S&Atilde;O LU&Iacute;S(CCEF)</option>
+	<option value="923">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA - BACHARELADO/CCBS</option>
+	<option value="950">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA - LICENCIATURA/CCBS</option>
+	<option value="1374">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA BACHARELADO/DCCBS - INATIVAR</option>
+	<option value="1365">COORDENA&Ccedil;&Atilde;O DO CURSO DE EDUCA&Ccedil;&Atilde;O F&Iacute;SICA PINHEIRO/CCPI</option>
+	<option value="1344">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENFERMAGEM BACABAL/CCBA</option>
+	<option value="1347">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENFERMAGEM PINHEIRO/CCPI</option>
+	<option value="924">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENFERMAGEM/CCBS</option>
+	<option value="939">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENFERMAGEM/CCBS - INATIVAR</option>
+	<option value="1012">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENFERMAGEM/CCIM</option>
+	<option value="1435">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA AEROESPACIAL/CCET</option>
+	<option value="1349">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA AGR&Iacute;COLA CHAPADINHA/CCCH</option>
+	<option value="1433">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA AMBIENTAL E SANIT&Aacute;RIA/CCBL</option>
+	<option value="1410">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA AMBIENTAL E SANIT&Aacute;RIA/CCET</option>
+	<option value="1411">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA CIVIL/CCBL</option>
+	<option value="1350">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA DA COMPUTA&Ccedil;&Atilde;O/COD&Oacute;</option>
+	<option value="1348">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA DE PESCA PINHEIRO/CCPI</option>
+	<option value="1869">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA DE TRANSPORTES/CCENGT</option>
+	<option value="1424">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA EL&Eacute;TRICA/CCBL</option>
+	<option value="1051">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA EL&Eacute;TRICA/CCET</option>
+	<option value="984">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA EL&Eacute;TRICA/CCET - INATIVAR</option>
+	<option value="1346">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA GEOLOGICA GRAJA&Uacute;/CCGR</option>
+	<option value="1464">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA QU&Iacute;MICA/CCET</option>
+	<option value="996">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA QU&Iacute;MICA/CCET - INATIVAR</option>
+	<option value="1351">COORDENA&Ccedil;&Atilde;O DO CURSO DE ENGENHARIA QU&Iacute;MICA/COD&Oacute;</option>
+	<option value="1900">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM AN&Aacute;LISE DE DADOS E INTELIG&Ecirc;NCIA ARTIFICIAL (EAD) - CCEADIA/CCET/STED</option>
+	<option value="1897">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENSINO DA MATEM&Aacute;TICA NO ENSINO M&Eacute;DIO (EAD) - CCEEMEM/CCET/STED</option>
+	<option value="1554">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENSINO DE CI&Ecirc;NCIAS - ANOS FINAIS DO ENSINO FUNDAMENTAL &quot;CI&Ecirc;NCIAS &Eacute; DEZ!&quot;  - STED</option>
+	<option value="1406">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O EM SA&Uacute;DE (EAD) - CCSO/STED</option>
+	<option value="2033">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O ESCOLAR (EAD) - CCEGES/CCSO/STED</option>
+	<option value="1896">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O ESTRAT&Eacute;GICA DE PESSOAS NA ERA DIGITAL (EAD) - CCEGPED/CCSO/STED</option>
+	<option value="1408">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O P&Uacute;BLICA MUNICIPAL (EAD) - CCSO/STED</option>
+	<option value="1899">COORDENA&Ccedil;&Atilde;O DO CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TECNOLOGIAS DIGITAIS NO CONTEXTO EDUCACIONAL (EAD) - CETDCE/CCBS/STED</option>
+	<option value="926">COORDENA&Ccedil;&Atilde;O DO CURSO DE FARM&Aacute;CIA/CCBS</option>
+	<option value="941">COORDENA&Ccedil;&Atilde;O DO CURSO DE FARM&Aacute;CIA/CCBS - INATIVAR</option>
+	<option value="1370">COORDENA&Ccedil;&Atilde;O DO CURSO DE FILOSOFIA - PARFOR</option>
+	<option value="846">COORDENA&Ccedil;&Atilde;O DO CURSO DE FILOSOFIA/CCH</option>
+	<option value="838">COORDENA&Ccedil;&Atilde;O DO CURSO DE FILOSOFIA/CCH - INATIVAR</option>
+	<option value="1404">COORDENA&Ccedil;&Atilde;O DO CURSO DE F&Iacute;SICA (EAD) - CCET/STED</option>
+	<option value="980">COORDENA&Ccedil;&Atilde;O DO CURSO DE F&Iacute;SICA - BACHARELADO/CCET</option>
+	<option value="986">COORDENA&Ccedil;&Atilde;O DO CURSO DE F&Iacute;SICA - LICENCIATURA/CCET</option>
+	<option value="1047">COORDENA&Ccedil;&Atilde;O DO CURSO DE GEOGRAFIA - BACHARELADO/CCH</option>
+	<option value="840">COORDENA&Ccedil;&Atilde;O DO CURSO DE GEOGRAFIA - LICENCIATURA/CCH</option>
+	<option value="850">COORDENA&Ccedil;&Atilde;O DO CURSO DE HIST&Oacute;RIA/CCH</option>
+	<option value="843">COORDENA&Ccedil;&Atilde;O DO CURSO DE HIST&Oacute;RIA/CCH - INATIVAR</option>
+	<option value="887">COORDENA&Ccedil;&Atilde;O DO CURSO DE HOTELARIA/CCSO</option>
+	<option value="2011">COORDENA&Ccedil;&Atilde;O DO CURSO DE INTELIG&Ecirc;NCIA ARTIFICIAL - CCIA/CCET</option>
+	<option value="1013">COORDENA&Ccedil;&Atilde;O DO CURSO DE JORNALISMO/CCIM</option>
+	<option value="1405">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS - PORTUGU&Ecirc;S (EAD) - CCH/STED</option>
+	<option value="839">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS - PORTUGU&Ecirc;S E ESPANHOL/CCH</option>
+	<option value="1979">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS - PORTUGU&Ecirc;S E FRANC&Ecirc;S/CCH</option>
+	<option value="849">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS - PORTUGU&Ecirc;S E INGL&Ecirc;S/CCH</option>
+	<option value="1364">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS BACABAL/CCBA</option>
+	<option value="1893">COORDENA&Ccedil;&Atilde;O DO CURSO DE LETRAS PORTUGUES &#150; PARFOR/CCLPPF</option>
+	<option value="1168">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS NATURAIS/F&Iacute;SICA - BACABAL/CCBA</option>
+	<option value="1177">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS - L&Iacute;NGUA PORTUGUESA/S&Atilde;O BERNARDO/CCSB</option>
+	<option value="1427">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS - M&Uacute;SICA/S&Atilde;O BERNARDO/ CCSB</option>
+	<option value="852">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURA EM TEATRO/CCH - INATIVAR</option>
+	<option value="1977">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURA INTERCULTURAL IND&Iacute;GENA - CCLII/PARFOR</option>
+	<option value="1173">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS HUMANAS - SOCIOLOGIA/S&Atilde;O BERNARDO/CCSB</option>
+	<option value="1167">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS HUMANAS BACABAL/CCBA</option>
+	<option value="1171">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS HUMANAS/CCGR</option>
+	<option value="1172">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS HUMANAS/COD&Oacute;</option>
+	<option value="1174">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS NATURAIS - QUIMICA/S&Atilde;O BERNARDO/CCSB</option>
+	<option value="1170">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS NATURAIS PINHEIRO/CCPI</option>
+	<option value="1175">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS NATURAIS/COD&Oacute;</option>
+	<option value="1176">COORDENA&Ccedil;&Atilde;O DO CURSO DE LICENCIATURAS EM CIENCIAS NATURAIS/GRAJA&Uacute;</option>
+	<option value="1237">COORDENA&Ccedil;&Atilde;O DO CURSO DE MATEM&Aacute;TICA (EAD) - CCET/STED</option>
+	<option value="972">COORDENA&Ccedil;&Atilde;O DO CURSO DE MATEM&Aacute;TICA - BACHARELADO/CCET</option>
+	<option value="983">COORDENA&Ccedil;&Atilde;O DO CURSO DE MATEM&Aacute;TICA - LICENCIATURA/CCET</option>
+	<option value="1345">COORDENA&Ccedil;&Atilde;O DO CURSO DE MATEM&Aacute;TICA/GRAJA&Uacute;</option>
+	<option value="1327">COORDENA&Ccedil;&Atilde;O DO CURSO DE MEDICINA IMPERATRIZ/CCIM</option>
+	<option value="1326">COORDENA&Ccedil;&Atilde;O DO CURSO DE MEDICINA PINHEIRO/CCPI</option>
+	<option value="1055">COORDENA&Ccedil;&Atilde;O DO CURSO DE MEDICINA/CCBS</option>
+	<option value="942">COORDENA&Ccedil;&Atilde;O DO CURSO DE MEDICINA/CCBS - INATIVAR</option>
+	<option value="1431">COORDENA&Ccedil;&Atilde;O DO CURSO DE M&Uacute;SICA/CCH</option>
+	<option value="1343">COORDENA&Ccedil;&Atilde;O DO CURSO DE NUTRI&Ccedil;&Atilde;O BACABAL/CCBA</option>
+	<option value="953">COORDENA&Ccedil;&Atilde;O DO CURSO DE NUTRI&Ccedil;&Atilde;O/CCBS</option>
+	<option value="974">COORDENA&Ccedil;&Atilde;O DO CURSO DE OCEANOGRAFIA/CCBS</option>
+	<option value="1124">COORDENA&Ccedil;&Atilde;O DO CURSO DE OCEANOGRAFIA/CCBS - INATIVAR</option>
+	<option value="946">COORDENA&Ccedil;&Atilde;O DO CURSO DE ODONTOLOGIA/CCBS</option>
+	<option value="938">COORDENA&Ccedil;&Atilde;O DO CURSO DE ODONTOLOGIA/CCBS - INATIVAR</option>
+	<option value="1238">COORDENA&Ccedil;&Atilde;O DO CURSO DE PEDAGOGIA (EAD) - CCSO/STED</option>
+	<option value="1366">COORDENA&Ccedil;&Atilde;O DO CURSO DE PEDAGOGIA/CCCO</option>
+	<option value="1009">COORDENA&Ccedil;&Atilde;O DO CURSO DE PEDAGOGIA/CCIM</option>
+	<option value="1059">COORDENA&Ccedil;&Atilde;O DO CURSO DE PEDAGOGIA/CCSO</option>
+	<option value="888">COORDENA&Ccedil;&Atilde;O DO CURSO DE PEDAGOGIA/CCSO - INATIVAR</option>
+	<option value="848">COORDENA&Ccedil;&Atilde;O DO CURSO DE PSICOLOGIA/CCH</option>
+	<option value="874">COORDENA&Ccedil;&Atilde;O DO CURSO DE PSICOLOGIA/CCH - INATIVAR</option>
+	<option value="1235">COORDENA&Ccedil;&Atilde;O DO CURSO DE QU&Iacute;MICA (EAD) - CCET/STED</option>
+	<option value="973">COORDENA&Ccedil;&Atilde;O DO CURSO DE QU&Iacute;MICA - BACHARELADO/CCET</option>
+	<option value="988">COORDENA&Ccedil;&Atilde;O DO CURSO DE QU&Iacute;MICA - LICENCIATURA/CCET</option>
+	<option value="1061">COORDENA&Ccedil;&Atilde;O DO CURSO DE QU&Iacute;MICA INDUSTRIAL/CCET</option>
+	<option value="985">COORDENA&Ccedil;&Atilde;O DO CURSO DE QU&Iacute;MICA INDUSTRIAL/CCET - INATIVAR</option>
+	<option value="1050">COORDENA&Ccedil;&Atilde;O DO CURSO DE SERVI&Ccedil;O SOCIAL/CCSO</option>
+	<option value="884">COORDENA&Ccedil;&Atilde;O DO CURSO DE SERVI&Ccedil;O SOCIAL/CCSO - INATIVAR</option>
+	<option value="1430">COORDENA&Ccedil;&Atilde;O DO CURSO DE TEATRO/CCH</option>
+	<option value="1890">COORDENA&Ccedil;&Atilde;O DO CURSO DE TECNOLOGIA EM GEST&Atilde;O DA QUALIDADE (EAD) - CCTGQ/CCIM/STED</option>
+	<option value="900">COORDENA&Ccedil;&Atilde;O DO CURSO DE TURISMO/CCSO</option>
+	<option value="901">COORDENA&Ccedil;&Atilde;O DO CURSO DE TURISMO/CCSO - INATIVAR</option>
+	<option value="1352">COORDENA&Ccedil;&Atilde;O DO CURSO DE TURISMO/S&Atilde;O BERNARDO/CCSB</option>
+	<option value="1017">COORDENA&Ccedil;&Atilde;O DO CURSO ENGENHARIA DE ALIMENTOS/CCIM</option>
+	<option value="854">COORDENA&Ccedil;&Atilde;O DO CURSO M&Uacute;SICA LICENCIATURA/CCH - INATIVAR</option>
+	<option value="948">COORDENA&Ccedil;&Atilde;O ESPECIAL DE CI&Ecirc;NCIAS FISIOL&Oacute;GICAS E PATOLOGIA/CCBS</option>
+	<option value="918">COORDENA&Ccedil;&Atilde;O ESPECIAL DE MORFOLOGIA/CCBS</option>
+	<option value="1045">COORDENA&Ccedil;&Atilde;O ESPECIAL DE SA&Uacute;DE P&Uacute;BLICA/CCBS</option>
+	<option value="1526">COORDENA&Ccedil;&Atilde;O INSTITUCIONAL DO PARFOR/PROEN</option>
+	<option value="1645">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCBA</option>
+	<option value="1586">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCBS</option>
+	<option value="1624">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCCH</option>
+	<option value="1661">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCCO</option>
+	<option value="1594">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCET</option>
+	<option value="1664">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCGR</option>
+	<option value="1604">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCH</option>
+	<option value="1620">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCIM</option>
+	<option value="1638">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCPI</option>
+	<option value="1652">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCSB</option>
+	<option value="1608">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="1579">COORDENA&Ccedil;&Otilde;ES DE CURSOS DE GRADUA&Ccedil;&Atilde;O/CPBL</option>
+	<option value="1942">CORREGEDORIA</option>
+	<option value="993">CURSO AN&Aacute;LISE DE SISTEMAS DE INFORMA&Ccedil;&Atilde;O/CCET</option>
+	<option value="1143">CURSO DE ESP.EM AUDIT.E PERICIA CONTABIL/CCSO</option>
+	<option value="1340">CURSO DE ESPECIALIZACAO EM CIDADANIA, DIREITO HUMANOS E GESTAO DA SEGURANCA PUBLICA/CCSO</option>
+	<option value="1354">CURSO DE ESPECIALIZACAO EM GEST&Atilde;O E ORGANIZA&Ccedil;&Atilde;O DE SISTEMAS EDUCACIONAIS/CCIM</option>
+	<option value="1342">CURSO DE ESPECIALIZACAO EM LOGISTICA PORTUARIA/CCSO</option>
+	<option value="912">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O AUDITORIA EM SERVI&Ccedil;OS DE SA&Uacute;DE/CCBS</option>
+	<option value="913">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O DE HEMATOLOGIA CLINICA/CCBS</option>
+	<option value="1226">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ANALISE DE RISCOS E AMBIENTE/CCET</option>
+	<option value="990">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM AN&Aacute;LISE E PROJETO DE SISTEMAS/CCET</option>
+	<option value="1375">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ASSESSORIA DE COMUNICACAO EMPRESARIAL E INSTITUCIONAL/CCIM</option>
+	<option value="881">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM AUDITORIA/CCSO</option>
+	<option value="879">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM AVALIA&Ccedil;&Atilde;O EDUCACIONAL/CCSO</option>
+	<option value="878">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM AVALIA&Ccedil;&Atilde;O EDUCACIONAL/CCSO</option>
+	<option value="859">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DA INFORMA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="935">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS AMBIENTAIS/CCBS</option>
+	<option value="1852">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS CRIMINAIS E DIREITO ANTICORRUP&Ccedil;&Atilde;O/CCSO</option>
+	<option value="957">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS DA SA&Uacute;DE/CCBS</option>
+	<option value="960">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS MORFOL&Oacute;GICAS/CCBS</option>
+	<option value="916">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CL&Iacute;NICA M&Eacute;DICA/CCBS</option>
+	<option value="2030">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM COMANDO E ESTADO MAIOR - CCEM/CCSO</option>
+	<option value="863">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM COMUNICA&Ccedil;&Atilde;O ORGANIZACIONAL/CCSO</option>
+	<option value="1436">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM COMUNICA&Ccedil;&Atilde;O, CI&Ecirc;NCIA E TECNOLOGIA/CCSO</option>
+	<option value="1363">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CONTABILIDADE E PLANEJAMENTO TRIBUTARIO/CCSO</option>
+	<option value="1211">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM CONTROLADORIA GOVERNAMENTAL/CCSO</option>
+	<option value="927">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM DENT&Iacute;STICA RESTAURADORA/CCBS</option>
+	<option value="895">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM DESENVOLVIMENTO CURRICULAR/CCSO</option>
+	<option value="970">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM DESIGN GR&Aacute;FICO/CCET</option>
+	<option value="1228">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM DOCENCIA NA EDUCACAO INFANTIL/CCSO</option>
+	<option value="1878">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O AMBIENTAL E SUSTENTABILIDADE - CEEAS/CCCO</option>
+	<option value="1145">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERM. EM ESTOMATERAPIA/CCBS</option>
+	<option value="910">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM CL&Iacute;NICO-CIRURGICA/CCBS</option>
+	<option value="1140">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM EM CARDIOLOGIA/CCBS</option>
+	<option value="911">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM NA SAUDE DA CRIAN&Ccedil;A E DO ADOLESCENTE/CCBS</option>
+	<option value="1434">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM NA SA&Uacute;DE DA CRIAN&Ccedil;A/CCBS</option>
+	<option value="909">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM OBST&Eacute;TRICA E OBST.SOCIAL/CCBS</option>
+	<option value="907">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENFERMAGEM TRAUMATO ORTOP&Eacute;DICA/CCBS</option>
+	<option value="979">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENGENHARIA CLINICA/CCET</option>
+	<option value="1225">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENGENHARIA DO CAMPO-QUALIDADE/CCET</option>
+	<option value="1212">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENGENHARIA EL&Eacute;TRICA/INSTRUMENTA&Ccedil;&Atilde;O/CCET</option>
+	<option value="835">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENSINO DA GEOGRAFIA/CCH</option>
+	<option value="1663">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ENSINO DE  LINGUA PORTUGUESA E MATEM&Aacute;TICA NO ENSINO FUNDAMENTAL</option>
+	<option value="971">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ERGONOMIA/CCET</option>
+	<option value="829">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM FILOSOFIA POL&Iacute;TICA/CCH</option>
+	<option value="937">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM FISIOLOGIA/CCBS</option>
+	<option value="933">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEN&Eacute;TICA E BIOLOGIA MOLECULAR/CCBS</option>
+	<option value="906">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GERONTOLOGIA SOCIAL E SA&Uacute;DE IDOSO/CCBS</option>
+	<option value="1361">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O DA QUALIDADE E SEGURAN&Ccedil;A DOS ALIMENTOS/CCIM</option>
+	<option value="899">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O DE ARQUIVO/CCSO</option>
+	<option value="1468">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O E ASSESSORIA DE COMUNICA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="1223">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O E MARKETING DA HOSPITALIDADE/CCSO</option>
+	<option value="1220">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM GEST&Atilde;O PORTU&Aacute;RIA/CCSO</option>
+	<option value="834">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM HIST&Oacute;RIA/CCH</option>
+	<option value="930">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM IMUNOLOGIA/CCBS</option>
+	<option value="936">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM INTERVEN&Ccedil;&Otilde;ES NUTRICIONAIS/CCBS</option>
+	<option value="862">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM JORNALISMO CULTURAL/CCSO</option>
+	<option value="861">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM LEITURA E FORM. DE LEITORES/CCSO</option>
+	<option value="858">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM LEITURA E PR&Aacute;TICAS EDUCATIVAS/CCSO</option>
+	<option value="1558">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM LINGU&Iacute;STICA APLICADA AO ENSINO DE L&Iacute;NGUAS MATERNA E ESTRANGEIRA/CCH</option>
+	<option value="831">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM LINGU&Iacute;STICA/CCH</option>
+	<option value="830">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM L&Iacute;NGUA PORTUG./LIT.BRASILEIRA/CCH</option>
+	<option value="969">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM MATEM&Aacute;TICA/CCET</option>
+	<option value="1018">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM MEDICINA E CI&Ecirc;NCIAS DO ESPORTE/CCBS</option>
+	<option value="836">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM METODOLOGIA DO ENSINO DE GEOGRAFIA/CCH</option>
+	<option value="869">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM METODOLOGIA DO ENSINO SUPERIOR/CCSO</option>
+	<option value="866">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM METODOLOGIA ENS. SUPERIOR/CCSO</option>
+	<option value="868">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM METODOLOGIA. ENS. SUPERIOR/CCSO</option>
+	<option value="1756">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM MONITORAMENTO DE M&Iacute;DIAS SOCIAIS E MARKETING POL&Iacute;TICO/CCIM</option>
+	<option value="1915">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM M&Uacute;SICA - CEMUS/CCH</option>
+	<option value="928">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM ORTODONTIA/CCBS</option>
+	<option value="958">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM PERINATOLOGIA/CCBS</option>
+	<option value="1360">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM PLANEJAMENTO E GEST&Atilde;O TERRITORIAL/CCH</option>
+	<option value="880">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM POL&Iacute;TICAS SOCIAIS PROC.PEDAG&Oacute;GICOS/CCSO</option>
+	<option value="1144">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM PORTOS/CCET</option>
+	<option value="833">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM PSICOLOGIA SOCIAL/CCH</option>
+	<option value="1755">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM RADIOJORNALISMO E AUDIOVISUAL/CCSST</option>
+	<option value="991">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM REDES DE COMPUTADORES/CCET</option>
+	<option value="931">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM SA&Uacute;DE DA FAM&Iacute;LIA/CCBS</option>
+	<option value="963">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM SA&Uacute;DE DA MULHER/CCBS</option>
+	<option value="932">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM SA&Uacute;DE MENTAL/CCBS</option>
+	<option value="976">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TECNOLOGIA DE ALIMENTOS/CCET</option>
+	<option value="1968">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TECNOLOGIA DE FOGUETES - CETF/CCET</option>
+	<option value="978">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TELECOMUNICA&Ccedil;&Otilde;ES/CCET</option>
+	<option value="1322">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TREINAMENTO DE FOR&Ccedil;A - MUSCULA&Ccedil;&Atilde;O/CCBS</option>
+	<option value="905">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM TREINAMENTO DESPORTIVO P/ESCOLARES/CCBS</option>
+	<option value="908">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM UNIDADE TERAPIA INTENSIVA/CCBS</option>
+	<option value="968">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O EM &Aacute;LGEBRA/CCET</option>
+	<option value="1162">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O MBA EM AUDITORIA E PER&Iacute;CIA CONT&Aacute;BIO - IMPERATRIZ</option>
+	<option value="1163">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O MBA EM CONTROLADORIA/CCSO</option>
+	<option value="967">CURSO DE ESPECIALIZA&Ccedil;&Atilde;O PARA O ENSINO DA QUIMICA/CCET</option>
+	<option value="1131">CURSO ESP.CENTRO CIRURG.CENTRAL MATERIAL/CCBS</option>
+	<option value="1142">CURSO ESPECIALIZA&Ccedil;&Atilde;O EM CONTROLADORIA/CCSO</option>
+	<option value="870">CURSODE ESPECIALIZA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O ESCOLAR E DESENVOLVIMENTO HUMANO/CCSO</option>
+	<option value="1244">CURSOS DE LINGUAS ESTRANGEIRAS/PROEC</option>
+	<option value="1587">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/CCBS</option>
+	<option value="1595">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/CCET</option>
+	<option value="1605">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/CCH</option>
+	<option value="1621">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/CCIM</option>
+	<option value="1614">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/CCSO</option>
+	<option value="1662">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU/COD&Oacute;</option>
+	<option value="1646">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCBA</option>
+	<option value="1588">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCBS</option>
+	<option value="1625">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCCH</option>
+	<option value="1596">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCET</option>
+	<option value="1606">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCH</option>
+	<option value="1622">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCIM</option>
+	<option value="1615">CURSOS DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O STRICTO SENSU/CCSO</option>
+	<option value="1565">C&Acirc;MARA DE ADMINISTRA&Ccedil;&Atilde;O</option>
+	<option value="1569">C&Acirc;MARA DE ASSUNTOS ESTUDANTIS</option>
+	<option value="1570">C&Acirc;MARA DE EMPREENDEDORISMO E INTERNACIONALIZA&Ccedil;&Atilde;O</option>
+	<option value="1568">C&Acirc;MARA DE EXTENS&Atilde;O E CULTURA</option>
+	<option value="1552">C&Acirc;MARA DE GRADUA&Ccedil;&Atilde;O</option>
+	<option value="1671">C&Acirc;MARA DE PESQUISA E INOVA&Ccedil;&Atilde;O</option>
+	<option value="1567">C&Acirc;MARA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O</option>
+	<option value="873">DEPARTAMENTO DE EDUCA&Ccedil;&Atilde;O II/CCSO - INATIVAR</option>
+	<option value="922">DEPARTAMENTO DE MEDICINA II/CCBS - INATIVAR</option>
+	<option value="925">DEPARTAMENTO DE MEDICINA III/CCBS - INATIVAR</option>
+	<option value="947">DEPARTAMENTO DE ODONTOLOGIA I/CCBS - INATIVAR</option>
+	<option value="951">DEPARTAMENTO DE PATOLOGIA/CCBS - INATIVAR</option>
+	<option value="1589">DEPARTAMENTOS ACAD&Ecirc;MICOS/CCBS - INATIVAR</option>
+	<option value="1597">DEPARTAMENTOS ACAD&Ecirc;MICOS/CCET - INATIVAR</option>
+	<option value="1607">DEPARTAMENTOS ACAD&Ecirc;MICOS/CCH - INATIVAR</option>
+	<option value="1616">DEPARTAMENTOS ACAD&Ecirc;MICOS/CCSO - INATIVAR</option>
+	<option value="668">DEP&Oacute;SITO DE GUARDA DE BENS/PPGT</option>
+	<option value="1135">DINTER EM CIENCIAS DO SOLO/PPPGI</option>
+	<option value="1165">DINTER EM COMUNICA&Ccedil;&Atilde;O SOCIAL/PPPGI</option>
+	<option value="1242">DINTER EM EDUCA&Ccedil;&Atilde;O/PPPGI</option>
+	<option value="1164">DINTER EM ENFERMAGEM EM SA&Uacute;DE P&Uacute;BLICA/PPPGI</option>
+	<option value="1128">DINTER EM FILOSOFIA/PPPGI</option>
+	<option value="1166">DINTER EM INFORM&Aacute;TICA NA EDUCA&Ccedil;&Atilde;O/PPPGI</option>
+	<option value="1139">DINTER EM MEDICINA TROPICAL/PPPGI</option>
+	<option value="749">DINTER EM PSICOLOGIA SOCIAL/PPPGI</option>
+	<option value="1136">DINTER ENFERMERMAGEM EM SAUDE PUBLICA/PPPGI</option>
+	<option value="1134">DINTER FISIOPATOLOGIA CLINICA EXPERIMENT/PPPGI</option>
+	<option value="1137">DINTER LINGUISTICA UFC/UFMA/PPPGI</option>
+	<option value="753">DINTER LINGU&Iacute;STICA-L&Iacute;NGUA PORTUGUESA/PPPGI</option>
+	<option value="803">DIR ADJUNTA DE ENS. PESQUISA E EXTENSAO</option>
+	<option value="1066">DIRETORIA ADJUNTA ADMINISTRA&Ccedil;&Atilde;O E FINAN&Ccedil;AS - INATIVAR</option>
+	<option value="804">DIRETORIA ADJUNTA DE ENSINO E PESQUISA E EXTENSAO - INATIVAR</option>
+	<option value="809">DIRETORIA ADJUNTA DE PLANEJAMENTO - INATIVAR</option>
+	<option value="811">DIRETORIA ADJUNTA DE SERVI&Ccedil;OS ASSISTENCIAIS - INATIVAR</option>
+	<option value="1105">DIRETORIA DE ACESSIBILIDADE/PROAES</option>
+	<option value="1058">DIRETORIA DE ADMINISTRA&Ccedil;&Atilde;O/PPGT</option>
+	<option value="783">DIRETORIA DE ASSUNTOS CULTURAIS/PROEC</option>
+	<option value="1332">DIRETORIA DE ASSUNTOS ESTUDANTIS/PROAES</option>
+	<option value="1926">DIRETORIA DE ATEN&Ccedil;&Atilde;O &Agrave; SA&Uacute;DE DO DISCENTE/PROAES</option>
+	<option value="1399">DIRETORIA DE AVALIA&Ccedil;&Atilde;O E REGULA&Ccedil;&Atilde;O INSTITUCIONAL</option>
+	<option value="620">DIRETORIA DE A&Ccedil;&Otilde;ES ESPECIAIS/PROEN</option>
+	<option value="614">DIRETORIA DE COMUNICA&Ccedil;&Atilde;O INSTITUCIONAL/SCOM</option>
+	<option value="654">DIRETORIA DE CONV&Ecirc;NIOS/PPGT</option>
+	<option value="1930">DIRETORIA DE DESEMPENHO, CARREIRA E SA&Uacute;DE/PROGEP</option>
+	<option value="762">DIRETORIA DE DESENVOLVIMENTO DE ENSINO DE GRADUA&Ccedil;&Atilde;O</option>
+	<option value="1923">DIRETORIA DE DIFUS&Atilde;O DE CI&Ecirc;NCIA E TECNOLOGIA/PROEC</option>
+	<option value="1944">DIRETORIA DE DIVERSIDADE, INCLUS&Atilde;O E A&Ccedil;&Atilde;O AFIRMATIVA/REITORIA</option>
+	<option value="1210">DIRETORIA DE EMPREENDEDORISMO/AGEUFMA</option>
+	<option value="1057">DIRETORIA DE ENGENHARIA/SINFRA</option>
+	<option value="1508">DIRETORIA DE ESPORTES E LAZER/PROAES - INATIVAR</option>
+	<option value="824">DIRETORIA DE EVENTOS E CONCURSOS/SCE - INATIVAR</option>
+	<option value="1056">DIRETORIA DE EXTENS&Atilde;O/PROEC</option>
+	<option value="712">DIRETORIA DE GEST&Atilde;O DE PESSOAS/PROGEP</option>
+	<option value="1925">DIRETORIA DE GEST&Atilde;O DE RESTAURANTES - DGR/PROAES</option>
+	<option value="1383">DIRETORIA DE GEST&Atilde;O ESTRAT&Eacute;GICA/SINFRA</option>
+	<option value="1442">DIRETORIA DE GEST&Atilde;O, MODERNIZA&Ccedil;&Atilde;O E TRANSPAR&Ecirc;NCIA/PPGT - INATIVAR</option>
+	<option value="1494">DIRETORIA DE GOVERNAN&Ccedil;A DE TI/AGETIC</option>
+	<option value="1109">DIRETORIA DE INFRAESTRUTURA E SEGURANCA DA INFORMACAO/AGETIC</option>
+	<option value="1529">DIRETORIA DE INOVA&Ccedil;&Atilde;O E SERVI&Ccedil;OS TECNOL&Oacute;GICOS/AGEUFMA</option>
+	<option value="1941">DIRETORIA DE INTELIG&Ecirc;NCIA ARTIFICIAL/AGETIC</option>
+	<option value="2015">DIRETORIA DE MANUTEN&Ccedil;&Atilde;O - DIRMAN/SINFRA</option>
+	<option value="802">DIRETORIA DE MEIO AMBIENTE, TRANSPORTE E SEGURAN&Ccedil;A/SINFRA - DIRMATS/SINFRA</option>
+	<option value="782">DIRETORIA DE ORGANIZA&Ccedil;&Atilde;O ACAD&Ecirc;MICA/PROEN</option>
+	<option value="1060">DIRETORIA DE PESQUISA/AGEUFMA</option>
+	<option value="711">DIRETORIA DE PLANEJAMENTO E DESENVOLVIMENTO DE PESSOAL/PROGEP</option>
+	<option value="1990">DIRETORIA DE PLANEJAMENTO OR&Ccedil;AMENT&Aacute;RIO/PPGT</option>
+	<option value="761">DIRETORIA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O/AGEUFMA</option>
+	<option value="1994">DIRETORIA DE QUALIDADE DOS CURSOS DE GRADUA&Ccedil;&Atilde;O/REITORIA - INATIVAR</option>
+	<option value="1445">DIRETORIA DE RELA&Ccedil;&Otilde;ES INTERNACIONAIS/AGEUFMA</option>
+	<option value="1541">DIRETORIA DE SINDIC&Acirc;NCIA E PROCESSO ADMINISTRATIVO DISCIPLINAR/SCOR - INATIVAR</option>
+	<option value="1108">DIRETORIA DE SISTEMAS DE INFORMA&Ccedil;&Atilde;O/AGETIC</option>
+	<option value="683">DIRETORIA FINANCEIRA E DE CONTABILIDADE/PPGT</option>
+	<option value="1334">DIVISAO DE ADMINISTRA&Ccedil;&Atilde;O DE PROGRAMAS E TRANSPAR&Ecirc;NCIA/PROAES - INATIVAR</option>
+	<option value="708">DIVISAO DE CAPACITA&Ccedil;&Atilde;O E DESENVOLVIMENTO/PROGEP</option>
+	<option value="705">DIVISAO DE GEST&Atilde;O DE DESEMPENHO/PROGEP</option>
+	<option value="1506">DIVISAO DE GEST&Atilde;O DE MORADIA/PROAES</option>
+	<option value="1208">DIVISAO DE PERICIA MEDICA/PROGEP</option>
+	<option value="686">DIVIS&Atilde;O ABIOTICA</option>
+	<option value="1519">DIVIS&Atilde;O ADMINISTRATIVA/STED</option>
+	<option value="765">DIVIS&Atilde;O DE ACOMPANHAMENTO DE EGRESSOS/PROEN</option>
+	<option value="1505">DIVIS&Atilde;O DE ADMINISTRA&Ccedil;&Atilde;O DE DADOS/AGETIC</option>
+	<option value="1775">DIVIS&Atilde;O DE ADMINISTRA&Ccedil;&Atilde;O E FINAN&Ccedil;AS/HUSUP</option>
+	<option value="1524">DIVIS&Atilde;O DE AN&Aacute;LISE E ACOMPANHAMENTO DE PAGAMENTOS/PPGT</option>
+	<option value="1803">DIVIS&Atilde;O DE APOIO DIAGN&Oacute;STICO E TERAP&Ecirc;UTICO/HUSUP</option>
+	<option value="1337">DIVIS&Atilde;O DE APOIO SOCIAL E PEDAG&Oacute;GICO/PROAES</option>
+	<option value="662">DIVIS&Atilde;O DE AQUISI&Ccedil;&Otilde;ES GERAIS/PPGT</option>
+	<option value="1520">DIVIS&Atilde;O DE ATENDIMENTO AO USU&Aacute;RIO/SIBI</option>
+	<option value="1927">DIVIS&Atilde;O DE ATENDIMENTO E A&Ccedil;&Otilde;ES EM SA&Uacute;DE/PROAES</option>
+	<option value="776">DIVIS&Atilde;O DE ATIVIDADES ART&Iacute;STICAS E LITER&Aacute;RIAS/PROEC</option>
+	<option value="777">DIVIS&Atilde;O DE ATIVIDADES AUDIOVISUAIS/PROEC - INATIVAR</option>
+	<option value="758">DIVIS&Atilde;O DE AVALIA&Ccedil;&Atilde;O, ACOMPANHAMENTO ACAD&Ecirc;MICO E TRANSPAR&Ecirc;NCIA/PROEN</option>
+	<option value="1946">DIVIS&Atilde;O DE A&Ccedil;&Atilde;O AFIRMATIVA E RELA&Ccedil;&Otilde;ES RACIAIS/REITORIA</option>
+	<option value="1497">DIVIS&Atilde;O DE A&Ccedil;&Otilde;ES ESTRAT&Eacute;GICAS/PROEC</option>
+	<option value="1106">DIVIS&Atilde;O DE BIBLIOTECA - INATIVAR</option>
+	<option value="1502">DIVIS&Atilde;O DE CONTRATA&Ccedil;&Otilde;ES DE TIC/AGETIC</option>
+	<option value="1107">DIVIS&Atilde;O DE CONTRATOS - INATIVAR</option>
+	<option value="1068">DIVIS&Atilde;O DE CONTROLE E AVALIA&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="1069">DIVIS&Atilde;O DE CONTROLE E OR&Ccedil;AMENTO - INATIVAR</option>
+	<option value="1528">DIVIS&Atilde;O DE CURSOS LATO SENSU/AGEUFMA</option>
+	<option value="747">DIVIS&Atilde;O DE CURSOS STRICTO SENSU/AGEUFMA</option>
+	<option value="1522">DIVIS&Atilde;O DE DESENVOLVIMENTO DE COLE&Ccedil;&Otilde;ES/SIBI</option>
+	<option value="1076">DIVIS&Atilde;O DE EDUCA&Ccedil;&Atilde;O CONTINUADA - INATIVAR</option>
+	<option value="1335">DIVIS&Atilde;O DE EDUCA&Ccedil;&Atilde;O EM SA&Uacute;DE/PROAES - INATIVAR</option>
+	<option value="764">DIVIS&Atilde;O DE EMISS&Atilde;O, REGISTRO E REVALIDA&Ccedil;&Atilde;O DE DIPLOMAS/PROEN</option>
+	<option value="1992">DIVIS&Atilde;O DE EMPENHO</option>
+	<option value="1083">DIVIS&Atilde;O DE ENFERMAGEM - INATIVAR</option>
+	<option value="1836">DIVIS&Atilde;O DE ENFERMAGEM/HUSUP</option>
+	<option value="1077">DIVIS&Atilde;O DE ENGENHARIA E MANUTEN&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="1074">DIVIS&Atilde;O DE ENSINO E EXTENS&Atilde;O - INATIVAR</option>
+	<option value="1931">DIVIS&Atilde;O DE ESPORTE, LAZER E CULTURA/PROAES</option>
+	<option value="1267">DIVIS&Atilde;O DE ESTAT&Iacute;STICA - INATIVAR</option>
+	<option value="669">DIVIS&Atilde;O DE EXPEDIENTE PROTOCOLO E ARQUIVO/PPGT</option>
+	<option value="774">DIVIS&Atilde;O DE EXTENS&Atilde;O/PROEC</option>
+	<option value="1084">DIVIS&Atilde;O DE FARM&Aacute;CIA- INATIVAR</option>
+	<option value="1444">DIVIS&Atilde;O DE GEST&Atilde;O DA INTEGRIDADE/REITORIA</option>
+	<option value="1948">DIVIS&Atilde;O DE GEST&Atilde;O DE MATERIAIS/AGEUFMA</option>
+	<option value="1798">DIVIS&Atilde;O DE GEST&Atilde;O DE PESSOAS/HUSUP</option>
+	<option value="1822">DIVIS&Atilde;O DE GEST&Atilde;O DO CUIDADO/HUSUP</option>
+	<option value="2040">DIVIS&Atilde;O DE GOVERNAN&Ccedil;A DA QUALIDADE DA GRADUA&Ccedil;&Atilde;O</option>
+	<option value="1929">DIVIS&Atilde;O DE GOVERNAN&Ccedil;A E GEST&Atilde;O DA QUALIDADE - DGQ/PROAES</option>
+	<option value="1945">DIVIS&Atilde;O DE G&Ecirc;NERO E DIVERSIDADE/REITORIA</option>
+	<option value="1079">DIVIS&Atilde;O DE HOTELARIA - INATIVAR</option>
+	<option value="648">DIVIS&Atilde;O DE INFRAESTRUTURA DE TI/AGETIC</option>
+	<option value="1413">DIVIS&Atilde;O DE INGRESSO NA GRADUA&Ccedil;&Atilde;O/PROEN</option>
+	<option value="1402">DIVIS&Atilde;O DE INTEGRA&Ccedil;&Atilde;O ACAD&Ecirc;MICA E PROFISSIONAL/PROEN</option>
+	<option value="1786">DIVIS&Atilde;O DE LOG&Iacute;STICA E INFRAESTRUTURA HOSPITALAR/HUSUP</option>
+	<option value="2016">DIVIS&Atilde;O DE MANUTEN&Ccedil;&Atilde;O DE EQUIPAMENTOS - DIME/SINFRA</option>
+	<option value="796">DIVIS&Atilde;O DE MANUTEN&Ccedil;&Atilde;O PREDIAL - DIMP/SINFRA</option>
+	<option value="1078">DIVIS&Atilde;O DE MATERIAL - HOSPITAL UNIVERSIT&Aacute;RIO - INATIVAR</option>
+	<option value="1940">DIVIS&Atilde;O DE MEIO AMBIENTE/SINFRA - DIMA/SINFRA</option>
+	<option value="1087">DIVIS&Atilde;O DE NUTRI&Ccedil;&Atilde;O E DIET&Eacute;TICA- INATIVAR</option>
+	<option value="1085">DIVIS&Atilde;O DE ODONTOLOGIA- INATIVAR</option>
+	<option value="1924">DIVIS&Atilde;O DE ORGANIZA&Ccedil;&Atilde;O DE EVENTOS/PROEC</option>
+	<option value="1449">DIVIS&Atilde;O DE ORGANIZA&Ccedil;&Atilde;O E MODERNIZA&Ccedil;&Atilde;O INSTITUCIONAL/PPGT - INATIVAR</option>
+	<option value="1081">DIVIS&Atilde;O DE PATRIM&Ocirc;NIO - INATIVAR</option>
+	<option value="1921">DIVIS&Atilde;O DE PATRIM&Ocirc;NIO/PPGT - INATIVAR</option>
+	<option value="1507">DIVIS&Atilde;O DE PERMAN&Ecirc;NCIA ESTUDANTIL/PROAES</option>
+	<option value="1075">DIVIS&Atilde;O DE PESQUISA E P&Oacute;S-GRADUA&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="2039">DIVIS&Atilde;O DE PLANOS E PROGRAMAS DE QUALIDADE</option>
+	<option value="1509">DIVIS&Atilde;O DE PRESTA&Ccedil;&Atilde;O DE CONTAS/PPGT</option>
+	<option value="1525">DIVIS&Atilde;O DE PROGRAMAS ESPECIAIS/PROEN</option>
+	<option value="763">DIVIS&Atilde;O DE PROJETO PEDAG&Oacute;GICOS DE CURSOS/PROEN</option>
+	<option value="1503">DIVIS&Atilde;O DE PROJETOS E SISTEMAS DE INFORMA&Ccedil;&Atilde;O/AGETIC</option>
+	<option value="1150">DIVIS&Atilde;O DE PROTOCOLO - INATIVAR</option>
+	<option value="707">DIVIS&Atilde;O DE QUALIDADE DE VIDA/PROGEP</option>
+	<option value="1939">DIVIS&Atilde;O DE RECONHECIMENTO DE DIPLOMAS/AGEUFMA</option>
+	<option value="1080">DIVIS&Atilde;O DE RECURSOS HUMANOS - INATIVAR</option>
+	<option value="1991">DIVIS&Atilde;O DE REPACTUA&Ccedil;&Otilde;ES</option>
+	<option value="1928">DIVIS&Atilde;O DE RESTAURANTES DO CONTINENTE - DRC/COR/DGR/PROAES</option>
+	<option value="1500">DIVIS&Atilde;O DE SEGURAN&Ccedil;A DA INFORMA&Ccedil;&Atilde;O/AGETIC</option>
+	<option value="797">DIVIS&Atilde;O DE SEGURAN&Ccedil;A/SINFRA</option>
+	<option value="1512">DIVIS&Atilde;O DE SELE&Ccedil;&Atilde;O E ADMISS&Atilde;O/PROGEP</option>
+	<option value="1086">DIVIS&Atilde;O DE SERVI&Ccedil;O SOCIAL M&Eacute;DICO- INATIVAR</option>
+	<option value="1943">DIVIS&Atilde;O DE SINDIC&Acirc;NCIA E PROCESSOS ADMINISTRATIVOS DISCIPLINARES/CGD</option>
+	<option value="1504">DIVIS&Atilde;O DE SUPORTE E SUSTENTA&Ccedil;&Atilde;O DE SISTEMAS DE INFORMA&Ccedil;&Atilde;O/AGETIC</option>
+	<option value="1518">DIVIS&Atilde;O DE TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O E COMUNICA&Ccedil;&Atilde;O/STED</option>
+	<option value="799">DIVIS&Atilde;O DE TRANSPORTE/SINFRA</option>
+	<option value="1521">DIVIS&Atilde;O DE TRATAMENTO DA INFORMA&Ccedil;&Atilde;O/SIBI</option>
+	<option value="1082">DIVIS&Atilde;O M&Eacute;DICA - INATIVAR</option>
+	<option value="1821">DIVIS&Atilde;O M&Eacute;DICA/HUSUP</option>
+	<option value="1070">DIVIS&Atilde;O ORGANIZA&Ccedil;&Atilde;O E M&Eacute;TODOS - INATIVAR</option>
+	<option value="1517">DIVIS&Atilde;O PEDAG&Oacute;GICA/STED</option>
+	<option value="1067">DIVIS&Atilde;O TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="819">EDITORA DA UNIVERSIDADE FEDERAL DO MARANH&Atilde;O/SIBI</option>
+	<option value="1501">ESCRIT&Oacute;RIO DE PROCESSOS/AGETIC</option>
+	<option value="1571">ESPA&Ccedil;O DA CI&Ecirc;NCIA E DO FIRMAMENTO</option>
+	<option value="1219">ESTUDO DE VIABILIDADE DE EXPLORA&Ccedil;&Atilde;O DE FONTES SOLAR E E&Oacute;LICA PARA ATENDIMENTO DE COMUNIDADES ISOLADAS/CCET</option>
+	<option value="1232">ESTUDOS ELETROQUIMICOS PARA QUALIDADE DE BIODISEL - ELETROBIO/CCET</option>
+	<option value="1159">FORNECEDORES DE LIVROS/NIB</option>
+	<option value="605">FUNDA&Ccedil;&Atilde;O UNIVERSIDADE FEDERAL DO MARANH&Atilde;O</option>
+	<option value="864">F&Oacute;RUM UNIVERSIT&Aacute;RIO/CCSO</option>
+	<option value="1022">GABINETE/REITORIA</option>
+	<option value="1488">GABINETE/VICE-REITORIA</option>
+	<option value="1774">GER&Ecirc;NCIA ADMINISTRATIVA/HUSUP</option>
+	<option value="1802">GER&Ecirc;NCIA DE ATEN&Ccedil;&Atilde;O &Agrave; SA&Uacute;DE/HUSUP</option>
+	<option value="1071">GER&Ecirc;NCIA DE DESENVOLVIMENTO - INATIVAR</option>
+	<option value="1837">GER&Ecirc;NCIA DE ENSINO E PESQUISA/HUSUP</option>
+	<option value="1072">GER&Ecirc;NCIA DE INFRAESTRUTURA - INATIVAR</option>
+	<option value="1073">GER&Ecirc;NCIA DE SUPORTE AO USU&Aacute;RIO - INATIVAR</option>
+	<option value="2032">GRUPO DE ESTUDOS E PESQUISAS EM ESTRAT&Eacute;GIAS E TECNOLOGIAS ORGANIZACIONAIS - GEPEETO/CCADM</option>
+	<option value="823">GR&Aacute;FICA DA UNIVERSIDADE FEDERAL DO MARANH&Atilde;O/SCE - INATIVAR</option>
+	<option value="915">HERB&Aacute;RIO/CCBS</option>
+	<option value="801">HOSPITAL UNIVERSITARIO/SUPERINTEND&Ecirc;NCIA</option>
+	<option value="1309">HUZINHO - INATIVAR</option>
+	<option value="1222">INATIVAR: ASSESSORIA DE GESTAO E FINANCAS/PROAF</option>
+	<option value="771">INATIVAR: DEPARTAMENTO  DE PLANEJAMENTO ACAD&Ecirc;MICO</option>
+	<option value="751">INATIVAR: DIVIS&Atilde;O DE CAPACITA&Ccedil;&Atilde;O DOCENTE/PPPGI</option>
+	<option value="1036">INATIVAR: N&Uacute;CLEO DE INTERC&Acirc;MBIO E COOPERA&Ccedil;&Atilde;O</option>
+	<option value="1362">INSTITUTO DE ENERGIA EL&Eacute;TRICA-IEE/UFMA</option>
+	<option value="1319">INTERNA&Ccedil;&Atilde;O OBSTETRICA - ENFERMAGEM - INATIVAR</option>
+	<option value="1304">INTERNA&Ccedil;&Atilde;O PEDIATRICA - INATIVAR</option>
+	<option value="1290">INTERNA&Ccedil;&Atilde;O PEDI&Aacute;TRICA-ENFERMAGEM - INATIVAR</option>
+	<option value="685">LABORAT&Oacute;RIO DE HIDROBIOLOGIA</option>
+	<option value="1251">LABORAT&Oacute;RIO DE HISTOCOMPATIBILIDADE - INATIVAR</option>
+	<option value="1000">MANUTENCAO DO ENSINO DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O</option>
+	<option value="999">MANUTEN&Ccedil;&Atilde;O DO ENSINO DE GRADUA&Ccedil;&Atilde;O</option>
+	<option value="607">MANUTEN&Ccedil;&Atilde;O GERAL ADMINISTRATIVA</option>
+	<option value="997">MANUTEN&Ccedil;&Atilde;O GERAL DO ENSINO</option>
+	<option value="727">MANUTEN&Ccedil;&Atilde;O GERAL/PROGEP</option>
+	<option value="812">MANUTEN&Ccedil;&Atilde;O SERVI&Ccedil;OS B&Aacute;SICOS</option>
+	<option value="1965">MESTRADO PROFISSIONAL EM MATEM&Aacute;TICA APLICADA E COMPUTACIONAL UFMA/UNICAMP - PPGMAC/CCCO</option>
+	<option value="860">MINTER EM CI&Ecirc;NCIAS DA INFORMA&Ccedil;&Atilde;O/DB/CCSO</option>
+	<option value="832">MINTER EM PSICOLOGIA/DEPSI/CCH</option>
+	<option value="1252">NASA - INATIVAR</option>
+	<option value="1535">NOTA DE EMPENHO/PPGT</option>
+	<option value="1291">NUCLEO DE EPIDEMIOLOGIA-ENFERMAGEM- INATIVAR</option>
+	<option value="1310">NUCLEO DE GEST&Atilde;O DA QUALIDADE - INATIVAR</option>
+	<option value="2034">N&Uacute;CLEO DE ASSUNTOS CORRECIONAIS</option>
+	<option value="1894">N&Uacute;CLEO DE BIOECONOMIA, AMBIENTE, INOVA&Ccedil;&Atilde;O, INTELIG&Ecirc;NCIA, TECNOLOGIAS, EDUCA&Ccedil;&Atilde;O E SA&Uacute;DE - BAITES/STED</option>
+	<option value="1221">N&Uacute;CLEO DE COMPUTA&Ccedil;&Atilde;O APLICADA/CCET</option>
+	<option value="837">N&Uacute;CLEO DE ESTUDOS AFRO-BRASILEIROS/CCH</option>
+	<option value="1218">N&Uacute;CLEO DE ESTUDOS DE PETR&Oacute;LEO E ENERGIA/CCET</option>
+	<option value="1874">N&Uacute;CLEO DE HUMANIDADES - NH/CCH</option>
+	<option value="1311">N&Uacute;CLEO DE HUMANIZA&Ccedil;&Atilde;O - INATIVAR</option>
+	<option value="1415">N&Uacute;CLEO DE INOVA&Ccedil;&Atilde;O EM ENERGIA/CCET</option>
+	<option value="1846">N&Uacute;CLEO DE LABORAT&Oacute;RIOS DE PSICOLOGIA/CCH</option>
+	<option value="1888">N&Uacute;CLEO DE TRADU&Ccedil;&Atilde;O DA UFMA - TRADUFMA/CCH</option>
+	<option value="2014">N&Uacute;CLEO DOCENTE ESTRUTURANTE - NDE/CCCC/CCSO</option>
+	<option value="1999">N&Uacute;CLEO DOCENTE ESTRUTURANTE - NDE/COPED/CCIM</option>
+	<option value="1745">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE ADMINISTRA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="1742">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE BIBLIOTECONOMIA/CCSO</option>
+	<option value="1731">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE CI&Ecirc;NCIAS ECON&Ocirc;MICAS/CCSO</option>
+	<option value="1889">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE CI&Ecirc;NCIAS NATURAIS QUIMICA - NDE/CCNQ/CCSB</option>
+	<option value="1735">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - JORNALISMO/CCSO</option>
+	<option value="1736">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - RELA&Ccedil;&Otilde;ES P&Uacute;BLICAS/CCSO</option>
+	<option value="1734">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE COMUNICA&Ccedil;&Atilde;O SOCIAL - R&Aacute;DIO E TV/CCSO</option>
+	<option value="1747">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE DIREITO/CCSO</option>
+	<option value="1884">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE ENGENHARIA DA COMPUTA&Ccedil;&Atilde;O - NDECENGC/CCET</option>
+	<option value="2006">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE ENGENHARIA DE TRANSPORTES - NDE/CCENGT/CCET</option>
+	<option value="1738">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE HOTELARIA/CCSO</option>
+	<option value="1856">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS NATURAIS-BIOLOGIA - NDECCN</option>
+	<option value="1908">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE MATEM&Aacute;TICA - BACHARELADO/CCET</option>
+	<option value="1906">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE MATEM&Aacute;TICA - LICENCIATURA/CCET</option>
+	<option value="1966">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE QU&Iacute;MICA - BACHARELADO/CCET</option>
+	<option value="1972">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE QU&Iacute;MICA - LICENCIATURA/CCET</option>
+	<option value="1743">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO DE TURISMO/CCSO</option>
+	<option value="2001">N&Uacute;CLEO DOCENTE ESTRUTURANTE DO CURSO LICENCIATURA EM LINGUAGENS E C&Oacute;DIGOS - M&Uacute;SICA - NDE/LCSBM/CCSB</option>
+	<option value="744">N&Uacute;CLEO IMUNOLOGIA B&Aacute;SICA APLICADA/DEPAT/CCBS</option>
+	<option value="1895">N&Uacute;CLEO REGIONAL DA AMAZ&Ocirc;NIA ORIENTAL DA SBCS - NRAO/CCBS</option>
+	<option value="9">ORG&Atilde;OS EXECUTIVOS ACAD&Ecirc;MICOS</option>
+	<option value="5">ORG&Atilde;OS EXECUTIVOS AUXILIARES</option>
+	<option value="1147">OUVIDORIA</option>
+	<option value="1272">PACIENTES EXTERNOS AMBULAT&Oacute;RIO-ENFERMAGEM - INATIVAR</option>
+	<option value="1423">POLO DE ATUA&Ccedil;&Atilde;O ALC&Acirc;NTARA</option>
+	<option value="1913">PONTO DE PRESEN&Ccedil;A DA RNP NO MARANH&Atilde;O</option>
+	<option value="1547">PRESTA&Ccedil;&Atilde;O DE CONTAS DE DI&Aacute;RIAS E PASSAGENS</option>
+	<option value="1245">PREVAL&Ecirc;NCIA DAS HEPATITES B E DELTA EM ALGUNS MUNICIPIOS DO MARANH&Atilde;O - INATIVAR</option>
+	<option value="1032">PROCURADORIA FEDERAL JUNTO &Agrave; UFMA</option>
+	<option value="975">PROGRAMA DE CONTROLE DE QUALIDADE DE ALIMENTOS/CCET</option>
+	<option value="1861">PROGRAMA DE GEST&Atilde;O/PROGEP</option>
+	<option value="1910">PROGRAMA DE MESTRADO PROFISSIONAL EM ADMINISTRA&Ccedil;&Atilde;O P&Uacute;BLICA EM REDE NACIONAL - PROFIAP/UFMA</option>
+	<option value="1985">PROGRAMA DE MESTRADO PROFISSIONAL EM REDE EM LETRAS - ASSOCIA&Ccedil;&Atilde;O UFMA/UFRN</option>
+	<option value="1453">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O DOUTORADO EM CI&Ecirc;NCIA DA COMPUTA&Ccedil;&Atilde;O - ASSOCIA&Ccedil;&Atilde;O UFMA/UFPI</option>
+	<option value="1557">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O DOUTORADO EM QU&Iacute;MICA/CCET</option>
+	<option value="1462">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ARTES C&Ecirc;NICAS/CCH</option>
+	<option value="934">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM BIODIVERSIDADE CONSERVA&Ccedil;&Atilde;O/CCBS</option>
+	<option value="1154">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM BIOTECNOLOGIA - RENORBIO/CCBS</option>
+	<option value="1156">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA ANIMAL/CCCH</option>
+	<option value="1117">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DA COMPUTA&Ccedil;&Atilde;O/CCET</option>
+	<option value="1903">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DA INFORMA&Ccedil;&Atilde;O, N&Iacute;VEL MESTRADO PROFISSIONAL - PROGCIN/CCSO</option>
+	<option value="1231">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA DOS MATERIAIS/CCIM</option>
+	<option value="1862">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIA E TECNOLOGIA AMBIENTAL/CCET</option>
+	<option value="1456">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS AMBIENTAIS/CCCH</option>
+	<option value="961">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS DA SA&Uacute;DE/CCBS</option>
+	<option value="853">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CI&Ecirc;NCIAS SOCIAIS/CCH</option>
+	<option value="1455">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM COMUNICA&Ccedil;&Atilde;O - MODALIDADE PROFISSIONAL/CCSO</option>
+	<option value="1454">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM COMUNICA&Ccedil;&Atilde;O/CCIM</option>
+	<option value="1110">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM CULTURA E SOCIEDADE/CCH</option>
+	<option value="1539">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DESENVOLVIMENTO E MEIO AMBIENTE</option>
+	<option value="1898">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DESENVOLVIMENTO E MEIO AMBIENTE - DOUTORADO PRODEMA/UFMA - EM ASSOCIA&Ccedil;&Atilde;O EM REDE</option>
+	<option value="1116">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DESENVOLVIMENTO SOCIOECONOMICO/CCSO</option>
+	<option value="1158">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DESIGN/CCET</option>
+	<option value="1161">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM DIREITO E INSTITUI&Ccedil;&Otilde;ES DO SISTEMA DE JUSTI&Ccedil;A/CCSO</option>
+	<option value="1458">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O E PR&Aacute;TICAS EDUCATIVAS - PPGEPE/CCIM</option>
+	<option value="1397">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O F&Iacute;SICA/CCBS</option>
+	<option value="894">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM EDUCA&Ccedil;&Atilde;O/CCSO</option>
+	<option value="1113">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENERGIA E AMBIENTE/CCET</option>
+	<option value="1115">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENFERMAGEM/CCBS</option>
+	<option value="1463">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENGENHARIA AEROESPACIAL</option>
+	<option value="989">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENGENHARIA EL&Eacute;TRICA/CCET</option>
+	<option value="1377">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENSINO DE CI&Ecirc;NCIAS E MATEM&Aacute;TICA/CCET</option>
+	<option value="1466">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENSINO DE HIST&Oacute;RIA/CCH</option>
+	<option value="1969">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ENSINO NA EDUCA&Ccedil;&Atilde;O B&Aacute;SICA - PPEEB/CCCO</option>
+	<option value="1907">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ESTUDOS AFRICANOS E AFRO-BRASILEIROS</option>
+	<option value="1545">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM FILOSOFIA</option>
+	<option value="981">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM F&Iacute;SICA/CCET</option>
+	<option value="1451">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM GEOGRAFIA</option>
+	<option value="1381">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM GEST&Atilde;O DE ENSINO DA EDUCA&Ccedil;&Atilde;O B&Aacute;SICA/CCSO</option>
+	<option value="1114">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM HIST&Oacute;RIA/CCH</option>
+	<option value="1465">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM LETRAS - BACABAL</option>
+	<option value="1339">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM LETRAS/CCH</option>
+	<option value="1112">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM MATEM&Aacute;TICA/CCET</option>
+	<option value="1983">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM NUTRI&Ccedil;&Atilde;O - PPGN/CCBS</option>
+	<option value="1391">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM OCEANOGRAFIA/CCBS</option>
+	<option value="954">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM ODONTOLOGIA/CCBS</option>
+	<option value="893">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM POL&Iacute;TICAS P&Uacute;BLICAS/CCSO</option>
+	<option value="1467">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM PROPRIEDADE INTELECTUAL E TRANSFER&Ecirc;NCIA DE TECNOLOGIA PARA INOVA&Ccedil;&Atilde;O</option>
+	<option value="1157">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM PSICOLOGIA/CCH</option>
+	<option value="994">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM QU&Iacute;MICA/CCET</option>
+	<option value="1341">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - ENSINO DE F&Iacute;SICA EM REDE NACIONAL/CCET</option>
+	<option value="1153">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - MATEM&Aacute;TICA EM REDE NACIONAL/CCET</option>
+	<option value="1997">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - MESTRADO PROFISSIONAL EM ENSINO DE COMPUTA&Ccedil;&Atilde;O PARA EDUCA&Ccedil;&Atilde;O B&Aacute;SICA</option>
+	<option value="1400">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - MESTRADO PROFISSIONAL EM FILOSOFIA/CCH</option>
+	<option value="1338">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - PROF-ARTES EM REDE NACIONAL/CCH</option>
+	<option value="1155">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - REDE DE BIODIVERSIDADE E BIOTECNOLOGIA DA AMAZ&Ocirc;NIA LEGAL/CCBS</option>
+	<option value="1152">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE - REDE NORDESTE DE FORMA&Ccedil;&Atilde;O EM SA&Uacute;DE DA FAM&Iacute;LIA/CCBS</option>
+	<option value="1401">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM REDE EM SA&Uacute;DE DA FAM&Iacute;LIA/CCBS</option>
+	<option value="959">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE COLETIVA/CCBS</option>
+	<option value="962">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE DO ADULTO/CCBS</option>
+	<option value="903">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE E AMBIENTE/CCBS</option>
+	<option value="1461">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SA&Uacute;DE E TECNOLOGIA/CCIM</option>
+	<option value="1450">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SOCIOLOGIA/CCIM</option>
+	<option value="955">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O EM SUSTENTABILIDADE DE ECOSSISTEMAS/CCBS</option>
+	<option value="1954">PROGRAMA DE P&Oacute;S-GRADUA&Ccedil;&Atilde;O INTERDISCIPLINAR EM DIN&Acirc;MICAS SOCIAIS, CONEX&Otilde;ES ART&Iacute;STICAS E SABERES LOCAIS, N&Iacute;VEL MESTRADO ACAD&Ecirc;MICO - PPGDCS/CCSB</option>
+	<option value="731">PROGRAMA DE SELE&Ccedil;&Atilde;O GRADUAL I/PRH</option>
+	<option value="730">PROGRAMA DE SELE&Ccedil;&Atilde;O GRADUAL II/PRH</option>
+	<option value="732">PROGRAMA DE SELE&Ccedil;&Atilde;O GRADUAL III/PRH</option>
+	<option value="1591">PROJETO CENTRO DE L&Iacute;NGUAS E CULTURA/CLC</option>
+	<option value="2000">PROJETO DE EXTENS&Atilde;O DE LEITURA E ESCRITA NA EDUCA&Ccedil;&Atilde;O INFANTIL &#150; PROLEEI/CCSO</option>
+	<option value="1382">PROJETO HOSPITALIDADE NO CAMPUS</option>
+	<option value="1216">PROJETO IMPLANTA&Ccedil;&Atilde;O DO ESPA&Ccedil;O INTEGRADO DO TURISMO/CCSO</option>
+	<option value="1217">PROJETO IMPLEMENTA&Ccedil;&Atilde;O E COMPARA&Ccedil;&Atilde;O DE NOVAS TECNOLOGIAS PARA A PREVIS&Atilde;O DE COMPATIBILIDADE DE PETR&Oacute;LEOS DO PR&Eacute;SAL/CCET</option>
+	<option value="1390">PROJETO O POVO DAS &Aacute;GUAS: PROGRAMA CARTA ARQUEOL&Oacute;GICA DAS ESTEARIAS/CCH</option>
+	<option value="1590">PROJETOS DE EXTENS&Atilde;O</option>
+	<option value="1639">PROJETOS MINTER/DINTER</option>
+	<option value="1654">PROJETOS STED</option>
+	<option value="1268">PROTOCOLO E REPROGRAFIA - INATIVAR</option>
+	<option value="1967">PR&Eacute;DIO CASTELO BRANCO</option>
+	<option value="1328">PR&Oacute;-REITORIA DE ASSUNTOS ESTUDANTIS - PROAES</option>
+	<option value="767">PR&Oacute;-REITORIA DE ENSINO - PROEN</option>
+	<option value="786">PR&Oacute;-REITORIA DE EXTENS&Atilde;O E CULTURA - PROEC</option>
+	<option value="724">PR&Oacute;-REITORIA DE GEST&Atilde;O DE PESSOAS - PROGEP</option>
+	<option value="653">PR&Oacute;-REITORIA DE PLANEJAMENTO, GEST&Atilde;O E TRANSPAR&Ecirc;NCIA - INATIVAR</option>
+	<option value="652">PR&Oacute;-REITORIA DE PLANEJAMENTO, GEST&Atilde;O E TRANSPAR&Ecirc;NCIA - PPGT</option>
+	<option value="1670">P&Oacute;S-GRADUA&Ccedil;&Atilde;O LATO SENSU EM GEST&Atilde;O E EDUCA&Ccedil;&Atilde;O AMBIENTAL/CCGR</option>
+	<option value="805">RADIO UNIVERSIDADE/SCOM</option>
+	<option value="1021">REITORIA</option>
+	<option value="1523">REPRESENTA&Ccedil;&Atilde;O INSTITUCIONAL</option>
+	<option value="1263">RESID&Ecirc;NCIA MULTIPROFISSIONAL - INATIVAR</option>
+	<option value="655">RESTAURANTE UNIVERSIT&Aacute;RIO</option>
+	<option value="1299">SAME (UMI) - INATIVAR</option>
+	<option value="2038">SECRETARIA ADMINISTRATIVA</option>
+	<option value="1957">SECRETARIA ADMINISTRATIVA - SECAD/AGETIC</option>
+	<option value="1962">SECRETARIA ADMINISTRATIVA - SECAD/AGEUFMA</option>
+	<option value="1963">SECRETARIA ADMINISTRATIVA - SECAD/PPGT</option>
+	<option value="1960">SECRETARIA ADMINISTRATIVA - SECAD/PROAES</option>
+	<option value="1961">SECRETARIA ADMINISTRATIVA - SECAD/PROEC</option>
+	<option value="1964">SECRETARIA ADMINISTRATIVA - SECAD/PROEN</option>
+	<option value="1955">SECRETARIA ADMINISTRATIVA - SECAD/PROGEP</option>
+	<option value="1959">SECRETARIA ADMINISTRATIVA - SECAD/SCOM</option>
+	<option value="1958">SECRETARIA ADMINISTRATIVA - SECAD/SINFRA</option>
+	<option value="1033">SECRETARIA DOS COLEGIADOS SUPERIORES</option>
+	<option value="1653">SERVI&Ccedil;O ADMINISTRATIVO JUNTO AO HUUFMA/PROGEP</option>
+	<option value="1556">SERVI&Ccedil;O DE ACOMPANHAMENTO DE AUDITORIA E CONTROLE INTERNO E EXTERNO/PROGEP</option>
+	<option value="1420">SERVI&Ccedil;O DE ADMINISTRA&Ccedil;&Acirc;O INTERNA - UNIDADE BOM JESUS/CCIM</option>
+	<option value="1099">SERVI&Ccedil;O DE ANATOMIA PATOL&Oacute;GICA - INATIVAR</option>
+	<option value="1100">SERVI&Ccedil;O DE ANESTESIOLOGIA E GASOTERAPIA - INATIVAR</option>
+	<option value="1297">SERVI&Ccedil;O DE AN&Aacute;LISES CLINICAS (UPD) - INATIVAR</option>
+	<option value="1296">SERVI&Ccedil;O DE AN&Aacute;LISES CLINICAS - (UMI) - INATIVAR</option>
+	<option value="1097">SERVI&Ccedil;O DE AN&Aacute;LISES CL&Iacute;NICAS - INATIVAR</option>
+	<option value="1643">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCBA</option>
+	<option value="1577">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCBL</option>
+	<option value="1584">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCBS</option>
+	<option value="1629">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCCH</option>
+	<option value="1659">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCCO</option>
+	<option value="1592">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCET</option>
+	<option value="1668">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCGR</option>
+	<option value="1602">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCH</option>
+	<option value="1419">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCIM</option>
+	<option value="1636">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCPI</option>
+	<option value="1650">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCSB</option>
+	<option value="1612">SERVI&Ccedil;O DE APOIO &Agrave; SEGURAN&Ccedil;A E MEDICINA DO TRABALHO/CCSO</option>
+	<option value="1103">SERVI&Ccedil;O DE ARQUIVO M&Eacute;DICO E ESTATISTICA - INATIVAR</option>
+	<option value="1644">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCBA</option>
+	<option value="1578">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCBL</option>
+	<option value="1585">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCBS</option>
+	<option value="1630">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCCH</option>
+	<option value="1660">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCCO</option>
+	<option value="1593">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCET</option>
+	<option value="1669">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCGR</option>
+	<option value="1603">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCH</option>
+	<option value="1428">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCIM</option>
+	<option value="1637">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCPI</option>
+	<option value="1651">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCSB</option>
+	<option value="1613">SERVI&Ccedil;O DE ASSIST&Ecirc;NCIA ESTUDANTIL/CCSO</option>
+	<option value="1555">SERVI&Ccedil;O DE AUDITORIA DE GEST&Atilde;O DE PESSOAS/PROGEP - INATIVAR</option>
+	<option value="1253">SERVI&Ccedil;O DE CARDIOLOGIA CLINICA - INATIVAR</option>
+	<option value="1273">SERVI&Ccedil;O DE CENTRO CIR&Uacute;RGICO-ENFERMAGEM - INATIVAR</option>
+	<option value="1254">SERVI&Ccedil;O DE CIRURGIA CARDIOVASCULAR - INATIVAR</option>
+	<option value="1089">SERVI&Ccedil;O DE CLINICA CIR&Uacute;RGICA - INATIVAR</option>
+	<option value="1274">SERVI&Ccedil;O DE CLINICA CIR&Uacute;RGICA-ENFERMAGEM - INATIVAR</option>
+	<option value="1088">SERVI&Ccedil;O DE CLINICA M&Eacute;DICA - INATIVAR</option>
+	<option value="1275">SERVI&Ccedil;O DE CLINICA M&Eacute;DICA-ENFERMAGEM - INATIVAR</option>
+	<option value="1537">SERVI&Ccedil;O DE CONCESS&Atilde;O DE DI&Aacute;RIAS E PASSAGENS/PPGT</option>
+	<option value="1255">SERVI&Ccedil;O DE DIAGN&Oacute;STICO POR IMAGEM - INATIVAR</option>
+	<option value="1247">SERVI&Ccedil;O DE ENDOCRINOLOGIA - INATIVAR</option>
+	<option value="1301">SERVI&Ccedil;O DE ENDOSCOPIA - INATIVAR</option>
+	<option value="1276">SERVI&Ccedil;O DE ENDOSCOPIA-ENFERMAGEM - INATIVAR</option>
+	<option value="1417">SERVI&Ccedil;O DE EXPEDIENTE E PROTOCOLO - UNIDADE BOM JESUS/CCIM</option>
+	<option value="1418">SERVI&Ccedil;O DE EXPEDIENTE E PROTOCOLO - UNIDADE CENTRO/CCSST - INATIVAR</option>
+	<option value="1095">SERVI&Ccedil;O DE GINECOLOGIA E OBSTETR&Iacute;CIA - INATIVAR</option>
+	<option value="1355">SERVI&Ccedil;O DE HEMODINAMICA - INATIVAR</option>
+	<option value="1102">SERVI&Ccedil;O DE HEMODIN&Acirc;MICA E ELETROFISIOLOGIA - INATIVAR</option>
+	<option value="1321">SERVI&Ccedil;O DE HEMOTERAPIA - ENFERMAGEM- INATIVAR</option>
+	<option value="1098">SERVI&Ccedil;O DE HEMOTERAPIA E HEMATOLOGIA - INATIVAR</option>
+	<option value="1096">SERVI&Ccedil;O DE IMAGENOLOGIA - INATIVAR</option>
+	<option value="1256">SERVI&Ccedil;O DE INTERNA&Ccedil;&Atilde;O - HUPD - INATIVAR</option>
+	<option value="1298">SERVI&Ccedil;O DE NECR&Oacute;PSIA - INATIVAR</option>
+	<option value="1306">SERVI&Ccedil;O DE NEFROLOGIA - INATIVAR</option>
+	<option value="1257">SERVI&Ccedil;O DE NEONATOLOGIA - INATIVAR</option>
+	<option value="1258">SERVI&Ccedil;O DE NEURO CIRURGIA - INATIVAR</option>
+	<option value="1277">SERVI&Ccedil;O DE NEURO ORTOPEDIA-ENFERMAGEM - INATIVAR</option>
+	<option value="1358">SERVI&Ccedil;O DE OFTALMOLOGIA - INATIVAR</option>
+	<option value="1259">SERVI&Ccedil;O DE ORTOPEDIA - INATIVAR</option>
+	<option value="1323">SERVI&Ccedil;O DE PACIENTE EXTERNOS - ENFERMAGEM - INATIVAR</option>
+	<option value="1090">SERVI&Ccedil;O DE PACIENTES EXTERNOS - INATIVAR</option>
+	<option value="1536">SERVI&Ccedil;O DE PAGAMENTO/PPGT</option>
+	<option value="1094">SERVI&Ccedil;O DE PEDIATRIA - INATIVAR</option>
+	<option value="1292">SERVI&Ccedil;O DE PEDIATRIA-ENFERMAGEM- INATIVAR</option>
+	<option value="704">SERVI&Ccedil;O DE SEGURANCA E MEDICINA DO TRABALHO/PROGEP</option>
+	<option value="1092">SERVI&Ccedil;O DE TERAPIA INTENSIVA CARDIOL&Oacute;GICA - INATIVAR</option>
+	<option value="1091">SERVI&Ccedil;O DE TERAPIA INTENSIVA GERAL - INATIVAR</option>
+	<option value="1093">SERVI&Ccedil;O DE TERAPIA INTENSIVA NEONATAL - INATIVAR</option>
+	<option value="1101">SERVI&Ccedil;O DE UNIDADE RENAL - INATIVAR</option>
+	<option value="1278">SERVI&Ccedil;O DE UNIDADE RENAL-ENFERMAGEM - INATIVAR</option>
+	<option value="1260">SERVI&Ccedil;O DE UROLOGIA - INATIVAR</option>
+	<option value="1279">SERVI&Ccedil;O DE UROLOGIA-ENFERMAGEM - INATIVAR</option>
+	<option value="1845">SERVI&Ccedil;O ESCOLA DE PSICOLOGIA/CCH</option>
+	<option value="1293">SERVI&Ccedil;O GINECOLOGIA E OBSTETR&Iacute;CIA-ENFERMAGEM- INATIVAR</option>
+	<option value="1795">SETOR DE ABASTECIMENTO FARMAC&Ecirc;UTICO E SUPRIMENTOS/HUSUP</option>
+	<option value="1776">SETOR DE ADMINISTRA&Ccedil;&Atilde;O/HUSUP</option>
+	<option value="1804">SETOR DE APOIO DIAGN&Oacute;STICO/HUSUP</option>
+	<option value="1809">SETOR DE APOIO TERAP&Ecirc;UTICO/HUSUP</option>
+	<option value="1785">SETOR DE CONTABILIDADE/HUSUP</option>
+	<option value="1758">SETOR DE CONTRATUALIZA&Ccedil;&Atilde;O E REGULA&Ccedil;&Atilde;O/HUSUP</option>
+	<option value="1829">SETOR DE CUIDADOS ESPECIALIZADOS/HUSUP</option>
+	<option value="1788">SETOR DE ENGENHARIA CL&Iacute;NICA/HUSUP</option>
+	<option value="1818">SETOR DE FARM&Aacute;CIA HOSPITALAR/HUSUP</option>
+	<option value="1838">SETOR DE GEST&Atilde;O DA PESQUISA E DA INOVA&Ccedil;&Atilde;O TECNOL&Oacute;GICA EM SA&Uacute;DE/HUSUP</option>
+	<option value="1766">SETOR DE GEST&Atilde;O DA QUALIDADE/HUSUP</option>
+	<option value="1841">SETOR DE GEST&Atilde;O DO ENSINO/HUSUP</option>
+	<option value="1782">SETOR DE GEST&Atilde;O OR&Ccedil;AMENT&Aacute;RIA E FINANCEIRA/HUSUP</option>
+	<option value="1763">SETOR DE GOVERNAN&Ccedil;A E ESTRAT&Eacute;GIA/HUSUP</option>
+	<option value="1356">SETOR DE HOTELARIA HOSPITALAR - INATIVAR</option>
+	<option value="1789">SETOR DE HOTELARIA HOSPITALAR/HUSUP</option>
+	<option value="1792">SETOR DE INFRAESTRUTURA F&Iacute;SICA/HUSUP</option>
+	<option value="1261">SETOR DE INTERNA&Ccedil;&Atilde;O - HUMI - INATIVAR</option>
+	<option value="1770">SETOR DE TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O E SA&Uacute;DE DIGITAL/HUSUP</option>
+	<option value="1266">SETOR FINANCEIRO - INATIVAR</option>
+	<option value="1922">SE&Ccedil;&Atilde;O DE APURA&Ccedil;&Atilde;O DE PENALIDADES/PPGT - INATIVAR</option>
+	<option value="1104">SE&Ccedil;&Atilde;O DE MUSEOLOGIA E PATRIM&Ocirc;NIO CULTURAL</option>
+	<option value="667">SE&Ccedil;&Atilde;O DE PATRIM&Ocirc;NIO/PPGT - INATIVAR</option>
+	<option value="847">SISTEMA INTEGRADO DE BIBLIOTECAS/SIBI</option>
+	<option value="1935">SUBSE&Ccedil;&Atilde;O DE ASSUNTOS PREVIDENCI&Aacute;RIOS/PROGEP</option>
+	<option value="1949">SUBSE&Ccedil;&Atilde;O DE GEST&Atilde;O MULTIDISCIPLINAR/PROAES</option>
+	<option value="1950">SUBSE&Ccedil;&Atilde;O DE INT&Eacute;RPRETES DE LIBRAS/PROAES</option>
+	<option value="1932">SUBSE&Ccedil;&Atilde;O DE NORMAS E LEGISLA&Ccedil;&Atilde;O DE PESSOAL/PROGEP</option>
+	<option value="1952">SUBSE&Ccedil;&Atilde;O DE PROGRAMA DE GEST&Atilde;O/PROGEP</option>
+	<option value="1936">SUBSE&Ccedil;&Atilde;O DE PROGRESS&Atilde;O/PROGEP</option>
+	<option value="1934">SUBSE&Ccedil;&Atilde;O DE REPOSI&Ccedil;&Atilde;O AO ER&Aacute;RIO/PROGEP</option>
+	<option value="1933">SUBSE&Ccedil;&Atilde;O DE SERVI&Ccedil;O DE ADMISS&Atilde;O/PROGEP</option>
+	<option value="1995">SUBSE&Ccedil;&Atilde;O DE SERVI&Ccedil;OS ADMINISTRATIVOS NO HOSPITAL UNIVERSIT&Aacute;RIO/DIGEP</option>
+	<option value="1951">SUBSE&Ccedil;&Atilde;O DE TRANSCRITORES DE BRAILLE/PROAES</option>
+	<option value="1516">SUPERINTEND&Ecirc;NCIA DE COMUNICA&Ccedil;&Atilde;O SOCIAL/SCOM</option>
+	<option value="1489">SUPERINTEND&Ecirc;NCIA DE CORREI&Ccedil;&Atilde;O - SCOR - INATIVAR</option>
+	<option value="793">SUPERINTEND&Ecirc;NCIA DE INFRAESTRUTURA/SINFRA</option>
+	<option value="2009">SUPERINTEND&Ecirc;NCIA DE QUALIDADE DOS CURSOS DE GRADUA&Ccedil;&Atilde;O - SQGRAD/UFMA</option>
+	<option value="826">SUPERINTEND&Ecirc;NCIA DE TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O/STI - INATIVAR</option>
+	<option value="825">SUPERINTEND&Ecirc;NCIA DE TECNOLOGIAS NA EDUCA&Ccedil;&Atilde;O/STED</option>
+	<option value="1262">SUPERVIS&Atilde;O DE DIAGN&Oacute;STICO POR IMAGEM - INATIVAR</option>
+	<option value="1246">SUPERVIS&Atilde;O DE ENFERMAGEM - INATIVAR</option>
+	<option value="1283">SUPERVIS&Atilde;O DE FARM&Aacute;CIA (UMI)- INATIVAR</option>
+	<option value="1284">SUPERVIS&Atilde;O DE SERVI&Ccedil;O SOCIAL (UMI)- INATIVAR</option>
+	<option value="1285">SUPERVIS&Atilde;O DE SERVI&Ccedil;O SOCIAL (UPD) - INATIVAR</option>
+	<option value="1902">TELESSA&Uacute;DE BRASIL REDES-TBR NO ESTADO DO MARANH&Atilde;O-TBR/BAITES/STED</option>
+	<option value="1280">TRANSPLANTE RENAL-ENFERMAGEM- INATIVAR</option>
+	<option value="639">TV UFMA/SCOM</option>
+	<option value="1914">UFMA VIRTUAL - UFMAVIRTUAL/STED</option>
+	<option value="1813">UNIDADE CORONARIANA/HUSUP</option>
+	<option value="1824">UNIDADE DA CRIAN&Ccedil;A E ADOLESCENTE/HUSUP</option>
+	<option value="1799">UNIDADE DE ADMINISTRA&Ccedil;&Atilde;O DE PESSOAL/HUSUP</option>
+	<option value="1796">UNIDADE DE ALMOXARIFADO E CONTROLE DE ESTOQUES/HUSUP</option>
+	<option value="1828">UNIDADE DE AMBULAT&Oacute;RIO/HUSUP</option>
+	<option value="1808">UNIDADE DE ANATOMIA PATOL&Oacute;GICA/HUSUP</option>
+	<option value="1975">UNIDADE DE APOIO &Agrave; GEST&Atilde;O DE ENFERMAGEM - UAGENF/DENF</option>
+	<option value="2031">UNIDADE DE APOIO &Agrave; GEST&Atilde;O DE ENFERMAGEM 2 - UAGENF2/DENF</option>
+	<option value="1811">UNIDADE DE BLOCO CIR&Uacute;RGICO/HUSUP</option>
+	<option value="1826">UNIDADE DE CL&Iacute;NICA CIR&Uacute;RGICA/HUSUP</option>
+	<option value="1827">UNIDADE DE CL&Iacute;NICA M&Eacute;DICA/HUSUP</option>
+	<option value="1773">UNIDADE DE COMUNICA&Ccedil;&Atilde;O SOCIAL/HUSUP</option>
+	<option value="1777">UNIDADE DE CONTRATOS/HUSUP</option>
+	<option value="1759">UNIDADE DE CONTRATUALIZA&Ccedil;&Atilde;O/HUSUP</option>
+	<option value="1858">UNIDADE DE CUIDADOS OFTALMOL&Oacute;GICOS - UCOFT</option>
+	<option value="1800">UNIDADE DE DESENVOLVIMENTO DE PESSOAL/HUSUP</option>
+	<option value="1805">UNIDADE DE DIAGN&Oacute;STICO POR IMAGEM/HUSUP</option>
+	<option value="1806">UNIDADE DE DIAGN&Oacute;STICOS ESPECIALIZADOS/HUSUP</option>
+	<option value="1819">UNIDADE DE DISPENSA&Ccedil;&Atilde;O FARMAC&Ecirc;UTICA/HUSUP</option>
+	<option value="1844">UNIDADE DE E-SA&Uacute;DE/HUSUP</option>
+	<option value="1783">UNIDADE DE EXECU&Ccedil;&Atilde;O OR&Ccedil;AMENT&Aacute;RIA E FINANCEIRA/HUSUP</option>
+	<option value="1820">UNIDADE DE FARM&Aacute;CIA CL&Iacute;NICA/HUSUP</option>
+	<option value="1778">UNIDADE DE FISCALIZA&Ccedil;&Atilde;O ADMINISTRATIVA DE CONTRATOS/HUSUP</option>
+	<option value="1842">UNIDADE DE GEST&Atilde;O DA GRADUA&Ccedil;&Atilde;O, ENSINO T&Eacute;CNICO E EXTENS&Atilde;O/HUSUP</option>
+	<option value="1761">UNIDADE DE GEST&Atilde;O DA INFORMA&Ccedil;&Atilde;O ASSISTENCIAL/HUSUP</option>
+	<option value="1840">UNIDADE DE GEST&Atilde;O DA INOVA&Ccedil;&Atilde;O TECNOL&Oacute;GICA EM SA&Uacute;DE/HUSUP</option>
+	<option value="1839">UNIDADE DE GEST&Atilde;O DA PESQUISA/HUSUP</option>
+	<option value="1767">UNIDADE DE GEST&Atilde;O DA QUALIDADE/HUSUP</option>
+	<option value="1843">UNIDADE DE GEST&Atilde;O DE P&Oacute;S GRADUA&Ccedil;&Atilde;O/HUSUP</option>
+	<option value="1764">UNIDADE DE GEST&Atilde;O DE RISCOS E CONTROLES INTERNOS/HUSUP</option>
+	<option value="1815">UNIDADE DE HEMATOLOGIA E HEMOTERAPIA/HUSUP</option>
+	<option value="1790">UNIDADE DE HOSPITALIDADE/HUSUP</option>
+	<option value="1771">UNIDADE DE INFRAESTRUTURA. SUPORTE E SEGURAN&Ccedil;A DE TECNOLOGIA DA INFORMA&Ccedil;&Atilde;O/HUSUP</option>
+	<option value="1807">UNIDADE DE LABORAT&Oacute;RIO DE AN&Aacute;LISES CL&Iacute;NICAS/HUSUP</option>
+	<option value="1779">UNIDADE DE LICITA&Ccedil;&Otilde;ES/HUSUP</option>
+	<option value="1793">UNIDADE DE MANUTEN&Ccedil;&Atilde;O PREDIAL/HUSUP</option>
+	<option value="1835">UNIDADE DE NEFROLOGIA/HUSUP</option>
+	<option value="1816">UNIDADE DE NUTRI&Ccedil;&Atilde;O CL&Iacute;NICA/HUSUP</option>
+	<option value="1823">UNIDADE DE OBSTETR&Iacute;CIA/HUSUP</option>
+	<option value="1780">UNIDADE DE PATRIM&Ocirc;NIO/HUSUP</option>
+	<option value="1781">UNIDADE DE PLANEJAMENTO DE COMPRAS/HUSUP</option>
+	<option value="1797">UNIDADE DE PLANEJAMENTO E DIMENSIONAMENTO DE ESTOQUES/HUSUP</option>
+	<option value="1784">UNIDADE DE PLANEJAMENTO E GEST&Atilde;O OR&Ccedil;AMENT&Aacute;RIA/HUSUP</option>
+	<option value="1765">UNIDADE DE PLANEJAMENTO/HUSUP</option>
+	<option value="1760">UNIDADE DE PROCESSAMENTO DA INFORMA&Ccedil;&Atilde;O ASSSISTENCIAL/HUSUP</option>
+	<option value="1817">UNIDADE DE PROCESSAMENTO DE MATERIAIS ESTERILIZADOS/HUSUP</option>
+	<option value="1791">UNIDADE DE PRODU&Ccedil;&Atilde;O E DISTRIBUI&Ccedil;&Atilde;O DE REFEI&Ccedil;&Otilde;ES/HUSUP</option>
+	<option value="1794">UNIDADE DE PROJETOS E OBRAS/HUSUP</option>
+	<option value="1762">UNIDADE DE REGULA&Ccedil;&Atilde;O INTERNA/HUSUP</option>
+	<option value="1801">UNIDADE DE SA&Uacute;DE OCUPACIONAL E SEGURAN&Ccedil;A DO TRABALHO/HUSUP</option>
+	<option value="1769">UNIDADE DE SEGURAN&Ccedil;A DO PACIENTE/HUSUP</option>
+	<option value="1787">UNIDADE DE SERVI&Ccedil;OS GERAIS/HUSUP</option>
+	<option value="1772">UNIDADE DE SISTEMAS DE INFORMA&Ccedil;&Atilde;O E INTELIG&Ecirc;NCIA DE DADOS/HUSUP</option>
+	<option value="1810">UNIDADE DE TERAPIA INTENSIVA ADULTO/HUSUP</option>
+	<option value="1812">UNIDADE DE TERAPIA INTENSIVA NEONATAL/HUSUP</option>
+	<option value="1814">UNIDADE DE TERAPIA INTENSIVA PEDI&Aacute;TRICA/HUSUP</option>
+	<option value="1831">UNIDADE DE TRANSPLANTES/HUSUP</option>
+	<option value="1830">UNIDADE DE TRAUMATO ORTOPEDIA/HUSUP</option>
+	<option value="1833">UNIDADE DE UROLOGIA/HUSUP</option>
+	<option value="1768">UNIDADE DE VIGIL&Acirc;NCIA EM SA&Uacute;DE/HUSUP</option>
+	<option value="1834">UNIDADE DO SISTEMA CARDIORRESPIRAT&Oacute;RIO/HUSUP</option>
+	<option value="1859">UNIDADE DO SISTEMA DIGESTIVO - USDIG</option>
+	<option value="1984">UNIDADE DO SISTEMA NEURO M&Uacute;SCULO-ESQUEL&Eacute;TICO/HUSUP</option>
+	<option value="1832">UNIDADE DO SISTEMA NEUROL&Oacute;GICO/HUSUP</option>
+	<option value="945">UNIDADE MATERNO INFANTIL</option>
+	<option value="944">UNIDADE PRESIDENTE DUTRA</option>
+	<option value="1825">UNIDADE SA&Uacute;DE DA MULHER/HUSUP</option>
+	<option value="1655">UNIVERSIDADE ABERTA DO BRASIL</option>
+	<option value="1460">UNIVERSIDADE ABERTA DO SUS</option>
+	<option value="1498">UNIVERSIDADE INTEGRADA DA TERCEIRA IDADE/PROEC</option>
+	<option value="1318">UTI C&Aacute;RDIO - INATIVAR</option>
+	<option value="1281">UTI C&Aacute;RDIO-ENFERMAGEM- INATIVAR</option>
+	<option value="1317">UTI GERAL - INATIVAR</option>
+	<option value="1282">UTI GERAL-ENFERMAGEM- INATIVAR</option>
+	<option value="1316">UTI NEONATAL - INATIVAR</option>
+	<option value="1294">UTI NEONATAL-ENFERMAGEM- INATIVAR</option>
+	<option value="1305">UTI PEDI&Aacute;TRICA - INATIVAR</option>
+	<option value="1295">UTI PEDI&Aacute;TRICA-ENFERMAGEM- INATIVAR</option>
+	<option value="733">VESTIBULAR/DCONCUR/PRH</option>
+	<option value="610">VICE-REITORIA</option>
+	<option value="1564">&Oacute;RG&Atilde;O EXECUTIVO CENTRAL</option>
+	<option value="1566">&Oacute;RG&Atilde;OS EXECUTIVOS DE GEST&Atilde;O</option>
+</select>
+							</td>	
+						</tr>
+						
+						<tr>
+							<td>
+								<input id="form:checkPeriodoCadastrto" type="checkbox" name="form:checkPeriodoCadastrto" class="noborder" />
+								Per&#237;odo de Cadastro:
+							</td>
+							<td>
+								<input id="form:dataCadInicio" name="form:dataCadInicio" type="text" maxlength="10" size="10" onkeypress="return formataData(this,event);" title="In&iacute;cio Per&iacute;odo de Cadastro" onfocus="selectText('null', 'form:dataCadInicio')" onclick="selectText('null', 'form:dataCadInicio')" /><span id="form:dataCadInicioSpan"></span><script type="text/javascript">form_3AdataCadInicioCalendarVar=new org_apache_myfaces_PopupCalendar();
+form_3AdataCadInicioCalendarVar.initData.imgDir = "\/public\/faces\/myFacesExtensionResource\/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader\/17769456\/calendar.HtmlCalendarRenderer\/DB\/";
+form_3AdataCadInicioCalendarVar.initData.monthName = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3AdataCadInicioCalendarVar.initData.dayName = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3AdataCadInicioCalendarVar.initData.startAt = 0;
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.weekdays = new Array("Domingo","Segunda-feira","Ter\u00E7a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S\u00E1bado");
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.shortWeekdays = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.shortMonths = new Array("Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez");
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.months = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.eras = new Array("BC","AD");
+form_3AdataCadInicioCalendarVar.dateFormatSymbols.ampms = new Array("AM","PM");
+form_3AdataCadInicioCalendarVar.initData.popupLeft = false;
+
+form_3AdataCadInicioCalendarVar.init(document.getElementById('form:dataCadInicioSpan'));
+</script><img src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/images/calendar.gif" style="vertical-align:bottom;" onclick="form_3AdataCadInicioCalendarVar._popUpCalendar(this,document.getElementById('form:dataCadInicio'),'dd/MM/yy')" />
+								a
+								<input id="form:dataCadFim" name="form:dataCadFim" type="text" maxlength="10" size="10" onkeypress="return formataData(this,event);" title="Fim Per&iacute;odo de Cadastro" onfocus="selectText('null', 'form:dataCadFim')" onclick="selectText('null', 'form:dataCadFim')" /><span id="form:dataCadFimSpan"></span><script type="text/javascript">form_3AdataCadFimCalendarVar=new org_apache_myfaces_PopupCalendar();
+form_3AdataCadFimCalendarVar.initData.imgDir = "\/public\/faces\/myFacesExtensionResource\/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader\/17769456\/calendar.HtmlCalendarRenderer\/DB\/";
+form_3AdataCadFimCalendarVar.initData.monthName = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3AdataCadFimCalendarVar.initData.dayName = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3AdataCadFimCalendarVar.initData.startAt = 0;
+form_3AdataCadFimCalendarVar.dateFormatSymbols.weekdays = new Array("Domingo","Segunda-feira","Ter\u00E7a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S\u00E1bado");
+form_3AdataCadFimCalendarVar.dateFormatSymbols.shortWeekdays = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3AdataCadFimCalendarVar.dateFormatSymbols.shortMonths = new Array("Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez");
+form_3AdataCadFimCalendarVar.dateFormatSymbols.months = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3AdataCadFimCalendarVar.dateFormatSymbols.eras = new Array("BC","AD");
+form_3AdataCadFimCalendarVar.dateFormatSymbols.ampms = new Array("AM","PM");
+form_3AdataCadFimCalendarVar.initData.popupLeft = false;
+
+form_3AdataCadFimCalendarVar.init(document.getElementById('form:dataCadFimSpan'));
+</script><img src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/images/calendar.gif" style="vertical-align:bottom;" onclick="form_3AdataCadFimCalendarVar._popUpCalendar(this,document.getElementById('form:dataCadFim'),'dd/MM/yy')" />
+							</td>
+						</tr>	
+						
+						<tr>
+							<td>
+								<input id="form:checkAssunto" type="checkbox" name="form:checkAssunto" checked="checked" class="noborder" />
+								Assunto:
+							</td>
+							<td>
+								<input id="form:assunto" type="text" name="form:assunto" value="progressao" onclick="javascript:$('form:checkAssunto').checked = true;" size="70" />
+							</td>
+						</tr>
+					</table>
+					
+					<table class="subFormulario" id="dadosBoletim" align="left" width="100%">
+						
+						<caption>Dados do Boletim</caption>
+						
+						<tr>
+							<td width="160">
+								<input id="form:checkNumeroAnoBoletim" type="checkbox" name="form:checkNumeroAnoBoletim" class="noborder" />
+								N&#250;mero/Ano:
+							</td>
+							<td>
+								<input id="form:numeroBoletim" type="text" name="form:numeroBoletim" value="0" maxlength="8" onclick="javascript:$('form:checkNumeroAnoBoletim').checked = true;" onkeyup="return formatarInteiro(this);" size="10" />
+								/ 
+								<input id="form:anoBoletim" type="text" name="form:anoBoletim" value="0" maxlength="4" onclick="javascript:$('form:checkNumeroAnoBoletim').checked = true;" onkeyup="return formatarInteiro(this);" size="5" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<input id="form:checkPeriodoPublicacao" type="checkbox" name="form:checkPeriodoPublicacao" class="noborder" />
+								Per&#237;odo de Publica&#231;&#227;o:
+							</td>
+							<td>
+								<input id="form:j_id_jsp_111637002_24" name="form:j_id_jsp_111637002_24" type="text" maxlength="10" size="10" onkeypress="return formataData(this,event);" title="In&iacute;cio Per&iacute;odo de Publica&ccedil;&atilde;o" onchange="javascript:$('form:checkPeriodoPublicacao').checked = true;" onfocus="selectText('null', 'form:j_id_jsp_111637002_24')" onclick="selectText('null', 'form:j_id_jsp_111637002_24')" /><span id="form:j_id_jsp_111637002_24Span"></span><script type="text/javascript">form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar=new org_apache_myfaces_PopupCalendar();
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.imgDir = "\/public\/faces\/myFacesExtensionResource\/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader\/17769456\/calendar.HtmlCalendarRenderer\/DB\/";
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.monthName = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.dayName = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.startAt = 0;
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.weekdays = new Array("Domingo","Segunda-feira","Ter\u00E7a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S\u00E1bado");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.shortWeekdays = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.shortMonths = new Array("Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.months = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.eras = new Array("BC","AD");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.dateFormatSymbols.ampms = new Array("AM","PM");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.todayDateFormat = "dd\/MM\/yyyy";
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.initData.popupLeft = false;
+
+form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar.init(document.getElementById('form:j_id_jsp_111637002_24Span'));
+</script><img src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/images/calendar.gif" style="vertical-align:bottom;" onclick="form_3Aj_5Fid_5Fjsp_5F111637002_5F24CalendarVar._popUpCalendar(this,document.getElementById('form:j_id_jsp_111637002_24'),'dd/MM/yyyy')" /> a
+								<input id="form:j_id_jsp_111637002_25" name="form:j_id_jsp_111637002_25" type="text" maxlength="10" size="10" onkeypress="return formataData(this,event);" title="Fim Per&iacute;odo de Publica&ccedil;&atilde;o" onchange="javascript:$('form:checkPeriodoPublicacao').checked = true;" onfocus="selectText('null', 'form:j_id_jsp_111637002_25')" onclick="selectText('null', 'form:j_id_jsp_111637002_25')" /><span id="form:j_id_jsp_111637002_25Span"></span><script type="text/javascript">form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar=new org_apache_myfaces_PopupCalendar();
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.imgDir = "\/public\/faces\/myFacesExtensionResource\/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader\/17769456\/calendar.HtmlCalendarRenderer\/DB\/";
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.monthName = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.dayName = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.startAt = 0;
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.weekdays = new Array("Domingo","Segunda-feira","Ter\u00E7a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S\u00E1bado");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.shortWeekdays = new Array("Dom","Seg","Ter","Qua","Qui","Sex","S\u00E1b");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.shortMonths = new Array("Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.months = new Array("Janeiro","Fevereiro","Mar\u00E7o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.eras = new Array("BC","AD");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.dateFormatSymbols.ampms = new Array("AM","PM");
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.todayDateFormat = "dd\/MM\/yyyy";
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.initData.popupLeft = false;
+
+form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar.init(document.getElementById('form:j_id_jsp_111637002_25Span'));
+</script><img src="/public/faces/myFacesExtensionResource/org.apache.myfaces.renderkit.html.util.MyFacesResourceLoader/17769456/calendar.HtmlCalendarRenderer/images/calendar.gif" style="vertical-align:bottom;" onclick="form_3Aj_5Fid_5Fjsp_5F111637002_5F25CalendarVar._popUpCalendar(this,document.getElementById('form:j_id_jsp_111637002_25'),'dd/MM/yyyy')" />
+							</td>
+						</tr>
+				
+					</table>
+				
+				</td>
+			
+			</tr>
+			
+			<tfoot>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" name="form:j_id_jsp_111637002_26" value="Consultar" /><input type="submit" name="form:j_id_jsp_111637002_27" value="Cancelar" onclick="if (!confirm('Deseja realmente cancelar a opera&ccedil;&atilde;o?')) return false" />
+						
+					</td>
+				</tr>
+			</tfoot>
+			
+		</table>
+	
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id2" />
+</form>
+	
+	
+
+
+	
+
+	
+	<br/>
+
+
+
+ 	
+<div id="rodape">
+		<p>	SIPAC | Ag&#234;ncia de Tecnologia da Informa&#231;&#227;o - (98) 3272-8081 | Copyright &copy; 2005-2026 - UFMA - sipac-0.sipac.sigs.svc.cluster.local</p>
+	</div>
+
+    </div> <!-- Fim id=corpo -->
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+
+<!-- MYFACES JAVASCRIPT -->
+
+<script type="text/javascript"><!--
+
+	function getScrolling()
+	{
+		var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset)
+		{
+			x = self.pageXOffset;
+			y = self.pageYOffset;
+		}
+		 else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop))
+		{
+			x = document.documentElement.scrollLeft;
+			y = document.documentElement.scrollTop;
+		}
+		 else if (document.body)
+		{
+			x = document.body.scrollLeft;
+			y = document.body.scrollTop;
+		}
+		return x + "," + y;
+	}
+	document.getElementById('container').style.visibility = 'visible';
+
+//--></script>
+
+
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-4564254-23', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+</body>
+
+
+
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</html>
