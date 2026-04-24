@@ -7,21 +7,9 @@ Fontes: SIPAC/UFMA, DOU (2018+) e DOU Histórico certificado (até 2017).
 from __future__ import annotations
 
 import logging
-import subprocess
-import sys
 import threading
 
 import streamlit as st
-
-# Instala o Chromium + dependências de sistema automaticamente (Streamlit Cloud)
-@st.cache_resource(show_spinner=False)
-def _instalar_playwright():
-    subprocess.run(
-        [sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"],
-        capture_output=True,
-    )
-
-_instalar_playwright()
 from datetime import date, timedelta
 from typing import Optional
 
