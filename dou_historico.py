@@ -151,7 +151,10 @@ def buscar_dou_historico(
     error: Optional[str] = None
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+        browser = pw.chromium.launch(
+            headless=True,
+            args=["--disable-dev-shm-usage", "--no-sandbox", "--disable-gpu"],
+        )
         ctx = browser.new_context(ignore_https_errors=True)
         page = ctx.new_page()
 
