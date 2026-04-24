@@ -1,5 +1,5 @@
 # Imagem oficial do Playwright com Python e Chromium pré-instalados
-FROM mcr.microsoft.com/playwright/python:v1.44.0-jammy
+FROM mcr.microsoft.com/playwright/python:v1.58.0-jammy
 
 WORKDIR /app
 
