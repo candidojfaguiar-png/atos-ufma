@@ -13,11 +13,11 @@ import threading
 
 import streamlit as st
 
-# Instala o Chromium do Playwright automaticamente (necessário no Streamlit Cloud)
+# Instala o Chromium + dependências de sistema automaticamente (Streamlit Cloud)
 @st.cache_resource(show_spinner=False)
 def _instalar_playwright():
     subprocess.run(
-        [sys.executable, "-m", "playwright", "install", "chromium"],
+        [sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"],
         capture_output=True,
     )
 
